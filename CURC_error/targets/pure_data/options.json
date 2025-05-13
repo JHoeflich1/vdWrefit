@@ -1,0 +1,807 @@
+{
+    "connection_options": {
+        "server_address": "localhost",
+        "server_port": 8000
+    },
+    "data_set_path": {
+        "@type": "openff.evaluator.datasets.datasets.PhysicalPropertyDataSet",
+        "properties": [
+            {
+                "@type": "openff.evaluator.properties.enthalpy.EnthalpyOfVaporization",
+                "gradients": [],
+                "id": "5ca3d13d93594783984ca9776d286949",
+                "phase": 6,
+                "source": {
+                    "@type": "openff.evaluator.datasets.provenance.MeasurementSource",
+                    "doi": "10.1063/1.555942",
+                    "reference": ""
+                },
+                "substance": {
+                    "@type": "openff.evaluator.substances.substances.Substance",
+                    "amounts": {
+                        "CCCCCC{solv}": [
+                            {
+                                "@type": "openff.evaluator.substances.amounts.MoleFraction",
+                                "value": 1.0
+                            }
+                        ]
+                    },
+                    "components": [
+                        {
+                            "@type": "openff.evaluator.substances.components.Component",
+                            "role": {
+                                "@type": "openff.evaluator.substances.components.Component.Role",
+                                "value": "solv"
+                            },
+                            "smiles": "CCCCCC"
+                        }
+                    ]
+                },
+                "thermodynamic_state": {
+                    "@type": "openff.evaluator.thermodynamics.ThermodynamicState",
+                    "pressure": {
+                        "@type": "openff.evaluator.unit.Quantity",
+                        "unit": "kilopascal",
+                        "value": 101.325
+                    },
+                    "temperature": {
+                        "@type": "openff.evaluator.unit.Quantity",
+                        "unit": "kelvin",
+                        "value": 298.15
+                    }
+                },
+                "uncertainty": {
+                    "@type": "openff.evaluator.unit.Quantity",
+                    "unit": "kilojoule / mole",
+                    "value": 0.028
+                },
+                "value": {
+                    "@type": "openff.evaluator.unit.Quantity",
+                    "unit": "kilojoule / mole",
+                    "value": 31.52
+                }
+            },
+            {
+                "@type": "openff.evaluator.properties.enthalpy.EnthalpyOfVaporization",
+                "gradients": [],
+                "id": "ab6c5784ea6d4b109377e0940f49bdcb",
+                "phase": 6,
+                "source": {
+                    "@type": "openff.evaluator.datasets.provenance.MeasurementSource",
+                    "doi": "10.1021/je960089h",
+                    "reference": ""
+                },
+                "substance": {
+                    "@type": "openff.evaluator.substances.substances.Substance",
+                    "amounts": {
+                        "CCCCCCCC{solv}": [
+                            {
+                                "@type": "openff.evaluator.substances.amounts.MoleFraction",
+                                "value": 1.0
+                            }
+                        ]
+                    },
+                    "components": [
+                        {
+                            "@type": "openff.evaluator.substances.components.Component",
+                            "role": {
+                                "@type": "openff.evaluator.substances.components.Component.Role",
+                                "value": "solv"
+                            },
+                            "smiles": "CCCCCCCC"
+                        }
+                    ]
+                },
+                "thermodynamic_state": {
+                    "@type": "openff.evaluator.thermodynamics.ThermodynamicState",
+                    "pressure": {
+                        "@type": "openff.evaluator.unit.Quantity",
+                        "unit": "kilopascal",
+                        "value": 101.325
+                    },
+                    "temperature": {
+                        "@type": "openff.evaluator.unit.Quantity",
+                        "unit": "kelvin",
+                        "value": 298.15
+                    }
+                },
+                "uncertainty": {
+                    "@type": "openff.evaluator.unit.Quantity",
+                    "unit": "kilojoule / mole",
+                    "value": 0.0
+                },
+                "value": {
+                    "@type": "openff.evaluator.unit.Quantity",
+                    "unit": "kilojoule / mole",
+                    "value": 41.6
+                }
+            },
+            {
+                "@type": "openff.evaluator.properties.enthalpy.EnthalpyOfVaporization",
+                "gradients": [],
+                "id": "5392ede1c7e640129eab899ee9a898f5",
+                "phase": 6,
+                "source": {
+                    "@type": "openff.evaluator.datasets.provenance.MeasurementSource",
+                    "doi": "10.1021/je00014a009",
+                    "reference": ""
+                },
+                "substance": {
+                    "@type": "openff.evaluator.substances.substances.Substance",
+                    "amounts": {
+                        "CCCCCCCCCC{solv}": [
+                            {
+                                "@type": "openff.evaluator.substances.amounts.MoleFraction",
+                                "value": 1.0
+                            }
+                        ]
+                    },
+                    "components": [
+                        {
+                            "@type": "openff.evaluator.substances.components.Component",
+                            "role": {
+                                "@type": "openff.evaluator.substances.components.Component.Role",
+                                "value": "solv"
+                            },
+                            "smiles": "CCCCCCCCCC"
+                        }
+                    ]
+                },
+                "thermodynamic_state": {
+                    "@type": "openff.evaluator.thermodynamics.ThermodynamicState",
+                    "pressure": {
+                        "@type": "openff.evaluator.unit.Quantity",
+                        "unit": "kilopascal",
+                        "value": 101.325
+                    },
+                    "temperature": {
+                        "@type": "openff.evaluator.unit.Quantity",
+                        "unit": "kelvin",
+                        "value": 298.15
+                    }
+                },
+                "uncertainty": {
+                    "@type": "openff.evaluator.unit.Quantity",
+                    "unit": "kilojoule / mole",
+                    "value": 0.0
+                },
+                "value": {
+                    "@type": "openff.evaluator.unit.Quantity",
+                    "unit": "kilojoule / mole",
+                    "value": 51.4
+                }
+            },
+            {
+                "@type": "openff.evaluator.properties.enthalpy.EnthalpyOfVaporization",
+                "gradients": [],
+                "id": "d947ea7a12524100a1ae7681ecfd206f",
+                "phase": 6,
+                "source": {
+                    "@type": "openff.evaluator.datasets.provenance.MeasurementSource",
+                    "doi": "10.1021/je960089h",
+                    "reference": ""
+                },
+                "substance": {
+                    "@type": "openff.evaluator.substances.substances.Substance",
+                    "amounts": {
+                        "CCCCCCCCCCCC{solv}": [
+                            {
+                                "@type": "openff.evaluator.substances.amounts.MoleFraction",
+                                "value": 1.0
+                            }
+                        ]
+                    },
+                    "components": [
+                        {
+                            "@type": "openff.evaluator.substances.components.Component",
+                            "role": {
+                                "@type": "openff.evaluator.substances.components.Component.Role",
+                                "value": "solv"
+                            },
+                            "smiles": "CCCCCCCCCCCC"
+                        }
+                    ]
+                },
+                "thermodynamic_state": {
+                    "@type": "openff.evaluator.thermodynamics.ThermodynamicState",
+                    "pressure": {
+                        "@type": "openff.evaluator.unit.Quantity",
+                        "unit": "kilopascal",
+                        "value": 101.325
+                    },
+                    "temperature": {
+                        "@type": "openff.evaluator.unit.Quantity",
+                        "unit": "kelvin",
+                        "value": 298.15
+                    }
+                },
+                "uncertainty": {
+                    "@type": "openff.evaluator.unit.Quantity",
+                    "unit": "kilojoule / mole",
+                    "value": 0.3
+                },
+                "value": {
+                    "@type": "openff.evaluator.unit.Quantity",
+                    "unit": "kilojoule / mole",
+                    "value": 61.3
+                }
+            },
+            {
+                "@type": "openff.evaluator.properties.enthalpy.EnthalpyOfVaporization",
+                "gradients": [],
+                "id": "b52b79995f17461e8e57b3f69b452720",
+                "phase": 6,
+                "source": {
+                    "@type": "openff.evaluator.datasets.provenance.MeasurementSource",
+                    "doi": "10.1021/je960089h",
+                    "reference": ""
+                },
+                "substance": {
+                    "@type": "openff.evaluator.substances.substances.Substance",
+                    "amounts": {
+                        "CCCCCCCCCCCCCCC{solv}": [
+                            {
+                                "@type": "openff.evaluator.substances.amounts.MoleFraction",
+                                "value": 1.0
+                            }
+                        ]
+                    },
+                    "components": [
+                        {
+                            "@type": "openff.evaluator.substances.components.Component",
+                            "role": {
+                                "@type": "openff.evaluator.substances.components.Component.Role",
+                                "value": "solv"
+                            },
+                            "smiles": "CCCCCCCCCCCCCCC"
+                        }
+                    ]
+                },
+                "thermodynamic_state": {
+                    "@type": "openff.evaluator.thermodynamics.ThermodynamicState",
+                    "pressure": {
+                        "@type": "openff.evaluator.unit.Quantity",
+                        "unit": "kilopascal",
+                        "value": 101.325
+                    },
+                    "temperature": {
+                        "@type": "openff.evaluator.unit.Quantity",
+                        "unit": "kelvin",
+                        "value": 298.15
+                    }
+                },
+                "uncertainty": {
+                    "@type": "openff.evaluator.unit.Quantity",
+                    "unit": "kilojoule / mole",
+                    "value": 0.3
+                },
+                "value": {
+                    "@type": "openff.evaluator.unit.Quantity",
+                    "unit": "kilojoule / mole",
+                    "value": 76.4
+                }
+            },
+            {
+                "@type": "openff.evaluator.properties.enthalpy.EnthalpyOfVaporization",
+                "gradients": [],
+                "id": "54166af9ba5c4bbab4d2920e6e2ae77a",
+                "phase": 6,
+                "source": {
+                    "@type": "openff.evaluator.datasets.provenance.MeasurementSource",
+                    "doi": "10.1021/je00014a009",
+                    "reference": ""
+                },
+                "substance": {
+                    "@type": "openff.evaluator.substances.substances.Substance",
+                    "amounts": {
+                        "CCCCCCCCCCCCCCCC{solv}": [
+                            {
+                                "@type": "openff.evaluator.substances.amounts.MoleFraction",
+                                "value": 1.0
+                            }
+                        ]
+                    },
+                    "components": [
+                        {
+                            "@type": "openff.evaluator.substances.components.Component",
+                            "role": {
+                                "@type": "openff.evaluator.substances.components.Component.Role",
+                                "value": "solv"
+                            },
+                            "smiles": "CCCCCCCCCCCCCCCC"
+                        }
+                    ]
+                },
+                "thermodynamic_state": {
+                    "@type": "openff.evaluator.thermodynamics.ThermodynamicState",
+                    "pressure": {
+                        "@type": "openff.evaluator.unit.Quantity",
+                        "unit": "kilopascal",
+                        "value": 101.325
+                    },
+                    "temperature": {
+                        "@type": "openff.evaluator.unit.Quantity",
+                        "unit": "kelvin",
+                        "value": 298.15
+                    }
+                },
+                "uncertainty": {
+                    "@type": "openff.evaluator.unit.Quantity",
+                    "unit": "kilojoule / mole",
+                    "value": 0.3
+                },
+                "value": {
+                    "@type": "openff.evaluator.unit.Quantity",
+                    "unit": "kilojoule / mole",
+                    "value": 81.4
+                }
+            },
+            {
+                "@type": "openff.evaluator.properties.enthalpy.EnthalpyOfVaporization",
+                "gradients": [],
+                "id": "1ee4936ef9a64063b4619cd1f8b6a5d4",
+                "phase": 6,
+                "source": {
+                    "@type": "openff.evaluator.datasets.provenance.MeasurementSource",
+                    "doi": "10.1021/j150544a029",
+                    "reference": ""
+                },
+                "substance": {
+                    "@type": "openff.evaluator.substances.substances.Substance",
+                    "amounts": {
+                        "C=CCCCC{solv}": [
+                            {
+                                "@type": "openff.evaluator.substances.amounts.MoleFraction",
+                                "value": 1.0
+                            }
+                        ]
+                    },
+                    "components": [
+                        {
+                            "@type": "openff.evaluator.substances.components.Component",
+                            "role": {
+                                "@type": "openff.evaluator.substances.components.Component.Role",
+                                "value": "solv"
+                            },
+                            "smiles": "C=CCCCC"
+                        }
+                    ]
+                },
+                "thermodynamic_state": {
+                    "@type": "openff.evaluator.thermodynamics.ThermodynamicState",
+                    "pressure": {
+                        "@type": "openff.evaluator.unit.Quantity",
+                        "unit": "kilopascal",
+                        "value": 101.325
+                    },
+                    "temperature": {
+                        "@type": "openff.evaluator.unit.Quantity",
+                        "unit": "kelvin",
+                        "value": 298.15
+                    }
+                },
+                "uncertainty": {
+                    "@type": "openff.evaluator.unit.Quantity",
+                    "unit": "kilojoule / mole",
+                    "value": 0.0
+                },
+                "value": {
+                    "@type": "openff.evaluator.unit.Quantity",
+                    "unit": "kilojoule / mole",
+                    "value": 30.6
+                }
+            },
+            {
+                "@type": "openff.evaluator.properties.enthalpy.EnthalpyOfVaporization",
+                "gradients": [],
+                "id": "b325b367fdf547a39d81196161d860eb",
+                "phase": 6,
+                "source": {
+                    "@type": "openff.evaluator.datasets.provenance.MeasurementSource",
+                    "doi": "10.1021/jo00334a040",
+                    "reference": ""
+                },
+                "substance": {
+                    "@type": "openff.evaluator.substances.substances.Substance",
+                    "amounts": {
+                        "C=CCCCCC{solv}": [
+                            {
+                                "@type": "openff.evaluator.substances.amounts.MoleFraction",
+                                "value": 1.0
+                            }
+                        ]
+                    },
+                    "components": [
+                        {
+                            "@type": "openff.evaluator.substances.components.Component",
+                            "role": {
+                                "@type": "openff.evaluator.substances.components.Component.Role",
+                                "value": "solv"
+                            },
+                            "smiles": "C=CCCCCC"
+                        }
+                    ]
+                },
+                "thermodynamic_state": {
+                    "@type": "openff.evaluator.thermodynamics.ThermodynamicState",
+                    "pressure": {
+                        "@type": "openff.evaluator.unit.Quantity",
+                        "unit": "kilopascal",
+                        "value": 101.325
+                    },
+                    "temperature": {
+                        "@type": "openff.evaluator.unit.Quantity",
+                        "unit": "kelvin",
+                        "value": 298.15
+                    }
+                },
+                "uncertainty": {
+                    "@type": "openff.evaluator.unit.Quantity",
+                    "unit": "kilojoule / mole",
+                    "value": 0.3
+                },
+                "value": {
+                    "@type": "openff.evaluator.unit.Quantity",
+                    "unit": "kilojoule / mole",
+                    "value": 40.65
+                }
+            },
+            {
+                "@type": "openff.evaluator.properties.density.Density",
+                "gradients": [],
+                "id": "e91cc2bd51454c0aa6d658f65abfd38b",
+                "phase": 2,
+                "source": {
+                    "@type": "openff.evaluator.datasets.provenance.MeasurementSource",
+                    "doi": "10.1016/j.molliq.2020.114366",
+                    "reference": ""
+                },
+                "substance": {
+                    "@type": "openff.evaluator.substances.substances.Substance",
+                    "amounts": {
+                        "CCCCCC{solv}": [
+                            {
+                                "@type": "openff.evaluator.substances.amounts.MoleFraction",
+                                "value": 1.0
+                            }
+                        ]
+                    },
+                    "components": [
+                        {
+                            "@type": "openff.evaluator.substances.components.Component",
+                            "role": {
+                                "@type": "openff.evaluator.substances.components.Component.Role",
+                                "value": "solv"
+                            },
+                            "smiles": "CCCCCC"
+                        }
+                    ]
+                },
+                "thermodynamic_state": {
+                    "@type": "openff.evaluator.thermodynamics.ThermodynamicState",
+                    "pressure": {
+                        "@type": "openff.evaluator.unit.Quantity",
+                        "unit": "kilopascal",
+                        "value": 101.325
+                    },
+                    "temperature": {
+                        "@type": "openff.evaluator.unit.Quantity",
+                        "unit": "kelvin",
+                        "value": 298.15
+                    }
+                },
+                "uncertainty": {
+                    "@type": "openff.evaluator.unit.Quantity",
+                    "unit": "gram / milliliter",
+                    "value": 0.0003
+                },
+                "value": {
+                    "@type": "openff.evaluator.unit.Quantity",
+                    "unit": "gram / milliliter",
+                    "value": 0.6555
+                }
+            },
+            {
+                "@type": "openff.evaluator.properties.density.Density",
+                "gradients": [],
+                "id": "2474c129f77f41648baa2ceb3ae0f795",
+                "phase": 2,
+                "source": {
+                    "@type": "openff.evaluator.datasets.provenance.MeasurementSource",
+                    "doi": "10.1021/acs.jced.8b01135",
+                    "reference": ""
+                },
+                "substance": {
+                    "@type": "openff.evaluator.substances.substances.Substance",
+                    "amounts": {
+                        "CCCCCCCCCCCC{solv}": [
+                            {
+                                "@type": "openff.evaluator.substances.amounts.MoleFraction",
+                                "value": 1.0
+                            }
+                        ]
+                    },
+                    "components": [
+                        {
+                            "@type": "openff.evaluator.substances.components.Component",
+                            "role": {
+                                "@type": "openff.evaluator.substances.components.Component.Role",
+                                "value": "solv"
+                            },
+                            "smiles": "CCCCCCCCCCCC"
+                        }
+                    ]
+                },
+                "thermodynamic_state": {
+                    "@type": "openff.evaluator.thermodynamics.ThermodynamicState",
+                    "pressure": {
+                        "@type": "openff.evaluator.unit.Quantity",
+                        "unit": "kilopascal",
+                        "value": 101.325
+                    },
+                    "temperature": {
+                        "@type": "openff.evaluator.unit.Quantity",
+                        "unit": "kelvin",
+                        "value": 298.15
+                    }
+                },
+                "uncertainty": {
+                    "@type": "openff.evaluator.unit.Quantity",
+                    "unit": "gram / milliliter",
+                    "value": 0.00017
+                },
+                "value": {
+                    "@type": "openff.evaluator.unit.Quantity",
+                    "unit": "gram / milliliter",
+                    "value": 0.7454
+                }
+            },
+            {
+                "@type": "openff.evaluator.properties.density.Density",
+                "gradients": [],
+                "id": "dfb1c1c816454072bbce59b5c9394885",
+                "phase": 2,
+                "source": {
+                    "@type": "openff.evaluator.datasets.provenance.MeasurementSource",
+                    "doi": "10.1021/acs.jced.3c00290",
+                    "reference": ""
+                },
+                "substance": {
+                    "@type": "openff.evaluator.substances.substances.Substance",
+                    "amounts": {
+                        "CCCCCCCCCCCCCCC{solv}": [
+                            {
+                                "@type": "openff.evaluator.substances.amounts.MoleFraction",
+                                "value": 1.0
+                            }
+                        ]
+                    },
+                    "components": [
+                        {
+                            "@type": "openff.evaluator.substances.components.Component",
+                            "role": {
+                                "@type": "openff.evaluator.substances.components.Component.Role",
+                                "value": "solv"
+                            },
+                            "smiles": "CCCCCCCCCCCCCCC"
+                        }
+                    ]
+                },
+                "thermodynamic_state": {
+                    "@type": "openff.evaluator.thermodynamics.ThermodynamicState",
+                    "pressure": {
+                        "@type": "openff.evaluator.unit.Quantity",
+                        "unit": "kilopascal",
+                        "value": 101.325
+                    },
+                    "temperature": {
+                        "@type": "openff.evaluator.unit.Quantity",
+                        "unit": "kelvin",
+                        "value": 298.15
+                    }
+                },
+                "uncertainty": {
+                    "@type": "openff.evaluator.unit.Quantity",
+                    "unit": "gram / milliliter",
+                    "value": 0.00017
+                },
+                "value": {
+                    "@type": "openff.evaluator.unit.Quantity",
+                    "unit": "gram / milliliter",
+                    "value": 0.765
+                }
+            },
+            {
+                "@type": "openff.evaluator.properties.density.Density",
+                "gradients": [],
+                "id": "4603022955a44fcfa6be779f9c3ede99",
+                "phase": 2,
+                "source": {
+                    "@type": "openff.evaluator.datasets.provenance.MeasurementSource",
+                    "doi": "10.1016/j.jct.2018.08.036",
+                    "reference": ""
+                },
+                "substance": {
+                    "@type": "openff.evaluator.substances.substances.Substance",
+                    "amounts": {
+                        "CCCCCCCCCCCCCCCC{solv}": [
+                            {
+                                "@type": "openff.evaluator.substances.amounts.MoleFraction",
+                                "value": 1.0
+                            }
+                        ]
+                    },
+                    "components": [
+                        {
+                            "@type": "openff.evaluator.substances.components.Component",
+                            "role": {
+                                "@type": "openff.evaluator.substances.components.Component.Role",
+                                "value": "solv"
+                            },
+                            "smiles": "CCCCCCCCCCCCCCCC"
+                        }
+                    ]
+                },
+                "thermodynamic_state": {
+                    "@type": "openff.evaluator.thermodynamics.ThermodynamicState",
+                    "pressure": {
+                        "@type": "openff.evaluator.unit.Quantity",
+                        "unit": "kilopascal",
+                        "value": 101.325
+                    },
+                    "temperature": {
+                        "@type": "openff.evaluator.unit.Quantity",
+                        "unit": "kelvin",
+                        "value": 298.15
+                    }
+                },
+                "uncertainty": {
+                    "@type": "openff.evaluator.unit.Quantity",
+                    "unit": "gram / milliliter",
+                    "value": 0.00036
+                },
+                "value": {
+                    "@type": "openff.evaluator.unit.Quantity",
+                    "unit": "gram / milliliter",
+                    "value": 0.77
+                }
+            },
+            {
+                "@type": "openff.evaluator.properties.density.Density",
+                "gradients": [],
+                "id": "2ad0f8a7c8a248c19de673adbbc95fef",
+                "phase": 2,
+                "source": {
+                    "@type": "openff.evaluator.datasets.provenance.MeasurementSource",
+                    "doi": "10.1021/j150544a029",
+                    "reference": ""
+                },
+                "substance": {
+                    "@type": "openff.evaluator.substances.substances.Substance",
+                    "amounts": {
+                        "C=CCCCC{solv}": [
+                            {
+                                "@type": "openff.evaluator.substances.amounts.MoleFraction",
+                                "value": 1.0
+                            }
+                        ]
+                    },
+                    "components": [
+                        {
+                            "@type": "openff.evaluator.substances.components.Component",
+                            "role": {
+                                "@type": "openff.evaluator.substances.components.Component.Role",
+                                "value": "solv"
+                            },
+                            "smiles": "C=CCCCC"
+                        }
+                    ]
+                },
+                "thermodynamic_state": {
+                    "@type": "openff.evaluator.thermodynamics.ThermodynamicState",
+                    "pressure": {
+                        "@type": "openff.evaluator.unit.Quantity",
+                        "unit": "kilopascal",
+                        "value": 101.325
+                    },
+                    "temperature": {
+                        "@type": "openff.evaluator.unit.Quantity",
+                        "unit": "kelvin",
+                        "value": 298.15
+                    }
+                },
+                "uncertainty": {
+                    "@type": "openff.evaluator.unit.Quantity",
+                    "unit": "gram / milliliter",
+                    "value": 0.0
+                },
+                "value": {
+                    "@type": "openff.evaluator.unit.Quantity",
+                    "unit": "gram / milliliter",
+                    "value": 0.66845
+                }
+            },
+            {
+                "@type": "openff.evaluator.properties.density.Density",
+                "gradients": [],
+                "id": "8745ea3d924f48979f6796d977c3040e",
+                "phase": 2,
+                "source": {
+                    "@type": "openff.evaluator.datasets.provenance.MeasurementSource",
+                    "doi": "",
+                    "reference": "Sigma Aldrich"
+                },
+                "substance": {
+                    "@type": "openff.evaluator.substances.substances.Substance",
+                    "amounts": {
+                        "C=CCCCCCCCCCCCCCC{solv}": [
+                            {
+                                "@type": "openff.evaluator.substances.amounts.MoleFraction",
+                                "value": 1.0
+                            }
+                        ]
+                    },
+                    "components": [
+                        {
+                            "@type": "openff.evaluator.substances.components.Component",
+                            "role": {
+                                "@type": "openff.evaluator.substances.components.Component.Role",
+                                "value": "solv"
+                            },
+                            "smiles": "C=CCCCCCCCCCCCCCC"
+                        }
+                    ]
+                },
+                "thermodynamic_state": {
+                    "@type": "openff.evaluator.thermodynamics.ThermodynamicState",
+                    "pressure": {
+                        "@type": "openff.evaluator.unit.Quantity",
+                        "unit": "kilopascal",
+                        "value": 101.325
+                    },
+                    "temperature": {
+                        "@type": "openff.evaluator.unit.Quantity",
+                        "unit": "kelvin",
+                        "value": 298.15
+                    }
+                },
+                "uncertainty": {
+                    "@type": "openff.evaluator.unit.Quantity",
+                    "unit": "gram / milliliter",
+                    "value": 0.0
+                },
+                "value": {
+                    "@type": "openff.evaluator.unit.Quantity",
+                    "unit": "gram / milliliter",
+                    "value": 0.789
+                }
+            }
+        ]
+    },
+    "denominators": {
+        "Density": {
+            "@type": "openff.evaluator.unit.Quantity",
+            "unit": "kilogram / meter ** 3",
+            "value": 30.0
+        },
+        "EnthalpyOfVaporization": {
+            "@type": "openff.evaluator.unit.Quantity",
+            "unit": "kilojoule / mole",
+            "value": 3.0
+        }
+    },
+    "estimation_options": {
+        "batch_mode": {
+            "@type": "openff.evaluator.client.client.BatchMode",
+            "value": "SharedComponents"
+        },
+        "calculation_layers": [
+            "SimulationLayer"
+        ]
+    },
+    "polling_interval": 600,
+    "weights": {
+        "Density": 1.0,
+        "EnthalpyOfVaporization": 1.0
+    }
+}

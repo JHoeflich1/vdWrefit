@@ -1,0 +1,439 @@
+Checking CUDA devices...
+Tue May 13 11:22:10 2025       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 550.90.07              Driver Version: 550.90.07      CUDA Version: 12.4     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA A40                     On  |   00000000:17:00.0 Off |                    0 |
+|  0%   27C    P8             21W /  300W |       1MiB /  46068MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+                                                                                         
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI        PID   Type   Process name                              GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+Starting Python script...
+#======================================================================#
+#| [1m            Welcome to ForceBalance version 1.9.6! =D             [0m |#
+#| [1m                 Force Field Optimization System                  [0m |#
+#| [1m                                                                  [0m |#
+#| [1m                             Authors:                             [0m |#
+#| [1m                          Lee-Ping Wang                           [0m |#
+#| [1m                  Yudong Qiu, Keri A. McKiernan                   [0m |#
+#| [1m          Jeffrey R. Wagner, Hyesu Jang, Simon Boothroyd          [0m |#
+#| [1m          Arthur Vigil, Erik G. Brandt, John Stoppelman           [0m |#
+#| [1m                  Johnny Israeli, Matt Thompson                   [0m |#
+#======================================================================#
+
+                          [44m     [0m                                        
+                       [44m        [0m      [43m     [0m                              
+                    [44m        [0m   [44m  [0m    [43m         [0m                          
+                 [44m       [0m    [44m      [0m      [43m         [0m                       
+             [44m        [0m    [44m        [0m          [43m         [0m                    
+          [44m        [0m    [44m        [0m                 [43m        [0m                 
+       [44m        [0m    [44m       [0m                        [43m        [0m              
+    [44m        [0m   [44m        [0m                              [43m         [0m          
+   [44m      [0m   [44m        [0m               `.:+@@###@'          [43m         [0m       
+    [44m [0m    [44m        [0m          ,;'+###############.             [43m     [0m       
+      [44m        [0m         +################':`                    [43m [0m        
+      [44m     [0m              `.,,...####+.                                  
+                                ,#####      +##.               [44m   [0m   [44m   [0m
+ [43m    [0m                            #####      ######             [44m   [0m   [44m   [0m
+ [43m    [0m                ###'        ####'     :#####'             [44m   [0m   [44m   [0m
+ [43m    [0m                :####@      ####.    ,####'               [44m   [0m   [44m   [0m
+ [43m    [0m                 ######     ####    +###+                 [44m   [0m   [44m   [0m
+ [43m    [0m                  #####     ####   ###;                   [44m   [0m   [44m   [0m
+ [43m    [0m                   :##      ####  ++`                     [44m   [0m   [44m   [0m
+ [43m    [0m                            ####``..:;+##############+`   [44m   [0m   [44m   [0m
+ [43m    [0m             .,:;;'++##################################`  [44m   [0m   [44m   [0m
+ [43m    [0m    `############################++++''';;;;;;;;;;;'';    [44m   [0m   [44m   [0m
+ [43m    [0m      ,########':,.``       ####                          [44m   [0m   [44m   [0m
+ [43m    [0m                            ####                          [44m   [0m   [44m   [0m
+ [43m    [0m                            ####                          [44m   [0m   [44m   [0m
+ [43m    [0m                            ####                          [44m   [0m   [44m   [0m
+ [43m    [0m                            ####                          [44m   [0m   [44m   [0m
+ [43m    [0m                            ####                          [44m   [0m   [44m   [0m
+ [43m    [0m                            ####                          [44m   [0m   [44m   [0m
+ [43m    [0m                            ####                          [44m   [0m   [44m   [0m
+      [44m    [0m                       ####                                   
+     [44m        [0m                    ####                                   
+    [44m [0m    [44m       [0m                 ####                       [43m     [0m       
+   [44m     [0m    [44m        [0m             ####                    [43m        [0m       
+   [44m        [0m    [44m        [0m          ###                  [43m         [0m         
+      [44m        [0m    [44m        [0m        +`               [43m        [0m             
+          [44m        [0m   [44m        [0m                   [43m        [0m                
+             [44m        [0m   [44m         [0m           [43m         [0m                   
+                [44m        [0m    [44m       [0m      [43m         [0m                      
+                   [44m        [0m    [44m   [0m    [43m        [0m                          
+                      [44m        [0m       [43m      [0m                             
+                          [44m      [0m      [43m  [0m                                
+                             [44m  [0m                                         
+
+Reading options from file: optimize.in
+#========================================================#
+#| [95m  Options at their default values are not printed   [0m |#
+#| [95m        Use 'verbose_options True' to Enable        [0m |#
+#========================================================#
+Reading force field from file: force_field_tagged.offxml
+#=========================================================#
+#| [92m Starting parameter indices, physical values and IDs [0m |#
+#=========================================================#
+   0 [  4.3470e+02 ] : Bonds/Bond/k/[#6X4:1]-[#6X4:2]
+   1 [  1.5325e+00 ] : Bonds/Bond/length/[#6X4:1]-[#6X4:2]
+   2 [  4.8155e+02 ] : Bonds/Bond/k/[#6X4:1]-[#6X3:2]
+   3 [  1.5045e+00 ] : Bonds/Bond/length/[#6X4:1]-[#6X3:2]
+   4 [  3.6252e+02 ] : Bonds/Bond/k/[#6X4:1]-[#6X3:2]=[#8X1+0]
+   5 [  1.5443e+00 ] : Bonds/Bond/length/[#6X4:1]-[#6X3:2]=[#8X1+0]
+   6 [  5.1622e+02 ] : Bonds/Bond/k/[#6X3:1]-[#6X3:2]
+   7 [  1.4719e+00 ] : Bonds/Bond/length/[#6X3:1]-[#6X3:2]
+   8 [  7.4578e+02 ] : Bonds/Bond/k/[#6X3:1]:[#6X3:2]
+   9 [  1.4027e+00 ] : Bonds/Bond/length/[#6X3:1]:[#6X3:2]
+  10 [  8.7528e+02 ] : Bonds/Bond/k/[#6X3:1]=[#6X3:2]
+  11 [  1.3800e+00 ] : Bonds/Bond/length/[#6X3:1]=[#6X3:2]
+  12 [  4.1462e+02 ] : Bonds/Bond/k/[#6:1]-[#7:2]
+  13 [  1.4918e+00 ] : Bonds/Bond/length/[#6:1]-[#7:2]
+  14 [  6.7403e+02 ] : Bonds/Bond/k/[#6X3:1]-[#7X3:2]
+  15 [  1.3865e+00 ] : Bonds/Bond/length/[#6X3:1]-[#7X3:2]
+  16 [  4.7634e+02 ] : Bonds/Bond/k/[#6X4:1]-[#7X3:2]-[#6X3]=[#8X1+0]
+  17 [  1.4648e+00 ] : Bonds/Bond/length/[#6X4:1]-[#7X3:2]-[#6X3]=[#8X1+0]
+  18 [  6.7853e+02 ] : Bonds/Bond/k/[#6X3:1](=[#8X1+0])-[#7X3:2]
+  19 [  1.3800e+00 ] : Bonds/Bond/length/[#6X3:1](=[#8X1+0])-[#7X3:2]
+  20 [  5.9144e+02 ] : Bonds/Bond/k/[#6X3:1]-[#7X2:2]
+  21 [  1.3832e+00 ] : Bonds/Bond/length/[#6X3:1]-[#7X2:2]
+  22 [  7.7507e+02 ] : Bonds/Bond/k/[#6X3:1]:[#7X2,#7X3+1:2]
+  23 [  1.3394e+00 ] : Bonds/Bond/length/[#6X3:1]:[#7X2,#7X3+1:2]
+  24 [  9.5412e+02 ] : Bonds/Bond/k/[#6X3:1]=[#7X2,#7X3+1:2]
+  25 [  1.3169e+00 ] : Bonds/Bond/length/[#6X3:1]=[#7X2,#7X3+1:2]
+  26 [  5.2635e+02 ] : Bonds/Bond/k/[#6:1]-[#8:2]
+  27 [  1.4252e+00 ] : Bonds/Bond/length/[#6:1]-[#8:2]
+  28 [  1.2259e+03 ] : Bonds/Bond/k/[#6X3:1]-[#8X1-1:2]
+  29 [  1.2591e+00 ] : Bonds/Bond/length/[#6X3:1]-[#8X1-1:2]
+  30 [  4.6414e+02 ] : Bonds/Bond/k/[#6X4:1]-[#8X2H0:2]
+  31 [  1.4340e+00 ] : Bonds/Bond/length/[#6X4:1]-[#8X2H0:2]
+  32 [  5.6268e+02 ] : Bonds/Bond/k/[#6X3:1]-[#8X2:2]
+  33 [  1.3669e+00 ] : Bonds/Bond/length/[#6X3:1]-[#8X2:2]
+  34 [  6.8560e+02 ] : Bonds/Bond/k/[#6X3:1]-[#8X2H1:2]
+  35 [  1.3725e+00 ] : Bonds/Bond/length/[#6X3:1]-[#8X2H1:2]
+  36 [  6.2476e+02 ] : Bonds/Bond/k/[#6X3a:1]-[#8X2H0:2]
+  37 [  1.3763e+00 ] : Bonds/Bond/length/[#6X3a:1]-[#8X2H0:2]
+  38 [  5.3028e+02 ] : Bonds/Bond/k/[#6X3:1](=[#8X1])-[#8X2H0:2]
+  39 [  1.3657e+00 ] : Bonds/Bond/length/[#6X3:1](=[#8X1])-[#8X2H0:2]
+  40 [  1.4551e+03 ] : Bonds/Bond/k/[#6:1]=[#8X1+0,#8X2+1:2]
+  41 [  1.2318e+00 ] : Bonds/Bond/length/[#6:1]=[#8X1+0,#8X2+1:2]
+  42 [  1.1804e+03 ] : Bonds/Bond/k/[#6X3:1](~[#8X1])~[#8X1:2]
+  43 [  1.2601e+00 ] : Bonds/Bond/length/[#6X3:1](~[#8X1])~[#8X1:2]
+  44 [  6.5393e+02 ] : Bonds/Bond/k/[#6X2:1]-[#6:2]
+  45 [  1.4322e+00 ] : Bonds/Bond/length/[#6X2:1]-[#6:2]
+  46 [  2.6676e+03 ] : Bonds/Bond/k/[#6:1]#[#7:2]
+  47 [  1.1659e+00 ] : Bonds/Bond/length/[#6:1]#[#7:2]
+  48 [  5.4947e+02 ] : Bonds/Bond/k/[#7X3:1]-[#7X2:2]
+  49 [  1.3674e+00 ] : Bonds/Bond/length/[#7X3:1]-[#7X2:2]
+  50 [  5.2331e+02 ] : Bonds/Bond/k/[#7X2:1]-[#7X2:2]
+  51 [  1.3525e+00 ] : Bonds/Bond/length/[#7X2:1]-[#7X2:2]
+  52 [  8.3461e+02 ] : Bonds/Bond/k/[#7:1]=[#7:2]
+  53 [  1.3026e+00 ] : Bonds/Bond/length/[#7:1]=[#7:2]
+  54 [  2.8552e+02 ] : Bonds/Bond/k/[#16X2,#16X1-1,#16X3+1:1]-[#6X4:2]
+  55 [  1.8371e+00 ] : Bonds/Bond/length/[#16X2,#16X1-1,#16X3+1:1]-[#6X4:2]
+  56 [  3.6215e+02 ] : Bonds/Bond/k/[#16X2,#16X1-1,#16X3+1:1]-[#6X3:2]
+  57 [  1.7484e+00 ] : Bonds/Bond/length/[#16X2,#16X1-1,#16X3+1:1]-[#6X3:2]
+  58 [  3.0941e+02 ] : Bonds/Bond/k/[#16X4,#16X3!+1:1]-[#6:2]
+  59 [  1.8077e+00 ] : Bonds/Bond/length/[#16X4,#16X3!+1:1]-[#6:2]
+  60 [  3.5866e+02 ] : Bonds/Bond/k/[#16X4,#16X3:1]~[#7:2]
+  61 [  1.7107e+00 ] : Bonds/Bond/length/[#16X4,#16X3:1]~[#7:2]
+  62 [  1.1590e+03 ] : Bonds/Bond/k/[#16X4,#16X3:1]~[#8X1:2]
+  63 [  1.4782e+00 ] : Bonds/Bond/length/[#16X4,#16X3:1]~[#8X1:2]
+  64 [  7.0556e+02 ] : Bonds/Bond/k/[#6:1]-[#9:2]
+  65 [  1.3549e+00 ] : Bonds/Bond/length/[#6:1]-[#9:2]
+  66 [  5.7182e+02 ] : Bonds/Bond/k/[#6X4:1]-[#9:2]
+  67 [  1.3657e+00 ] : Bonds/Bond/length/[#6X4:1]-[#9:2]
+  68 [  3.4170e+02 ] : Bonds/Bond/k/[#6:1]-[#17:2]
+  69 [  1.7582e+00 ] : Bonds/Bond/length/[#6:1]-[#17:2]
+  70 [  2.9056e+02 ] : Bonds/Bond/k/[#6:1]-[#35:2]
+  71 [  1.9178e+00 ] : Bonds/Bond/length/[#6:1]-[#35:2]
+  72 [  7.1349e+02 ] : Bonds/Bond/k/[#6X4:1]-[#1:2]
+  73 [  1.0863e+00 ] : Bonds/Bond/length/[#6X4:1]-[#1:2]
+  74 [  7.6837e+02 ] : Bonds/Bond/k/[#6X3:1]-[#1:2]
+  75 [  1.0866e+00 ] : Bonds/Bond/length/[#6X3:1]-[#1:2]
+  76 [  9.4492e+02 ] : Bonds/Bond/k/[#7:1]-[#1:2]
+  77 [  1.0215e+00 ] : Bonds/Bond/length/[#7:1]-[#1:2]
+  78 [  1.0800e+03 ] : Bonds/Bond/k/[#8:1]-[#1:2]
+  79 [  9.7434e-01 ] : Bonds/Bond/length/[#8:1]-[#1:2]
+  80 [  1.1023e+02 ] : Angles/Angle/angle/[*:1]~[#6X4:2]-[*:3]
+  81 [  9.9632e+01 ] : Angles/Angle/k/[*:1]~[#6X4:2]-[*:3]
+  82 [  1.0799e+02 ] : Angles/Angle/angle/[#1:1]-[#6X4:2]-[#1:3]
+  83 [  6.9199e+01 ] : Angles/Angle/k/[#1:1]-[#6X4:2]-[#1:3]
+  84 [  1.1775e+02 ] : Angles/Angle/angle/[*;r3:1]~;@[*;r3:2]~;!@[*:3]
+  85 [  1.1567e+02 ] : Angles/Angle/k/[*;r3:1]~;@[*;r3:2]~;!@[*:3]
+  86 [  1.1582e+02 ] : Angles/Angle/angle/[*:1]~;!@[*;r3:2]~;!@[*:3]
+  87 [  1.5030e+02 ] : Angles/Angle/k/[*:1]~;!@[*;r3:2]~;!@[*:3]
+  88 [  1.1482e+02 ] : Angles/Angle/angle/[#1:1]-[*;r3:2]~;!@[*:3]
+  89 [  5.5799e+01 ] : Angles/Angle/k/[#1:1]-[*;r3:2]~;!@[*:3]
+  90 [  8.8371e+01 ] : Angles/Angle/angle/[#6r4:1]-;@[#6r4:2]-;@[#6r4:3]
+  91 [  1.6078e+02 ] : Angles/Angle/k/[#6r4:1]-;@[#6r4:2]-;@[#6r4:3]
+  92 [  1.1619e+02 ] : Angles/Angle/angle/[!#1:1]-[#6r4:2]-;!@[!#1:3]
+  93 [  2.2078e+02 ] : Angles/Angle/k/[!#1:1]-[#6r4:2]-;!@[!#1:3]
+  94 [  1.1338e+02 ] : Angles/Angle/angle/[!#1:1]-[#6r4:2]-;!@[#1:3]
+  95 [  1.1602e+02 ] : Angles/Angle/k/[!#1:1]-[#6r4:2]-;!@[#1:3]
+  96 [  1.2171e+02 ] : Angles/Angle/angle/[*:1]~[#6X3:2]~[*:3]
+  97 [  1.2161e+02 ] : Angles/Angle/k/[*:1]~[#6X3:2]~[*:3]
+  98 [  1.1920e+02 ] : Angles/Angle/angle/[#1:1]-[#6X3:2]~[*:3]
+  99 [  4.6509e+01 ] : Angles/Angle/k/[#1:1]-[#6X3:2]~[*:3]
+ 100 [  1.3064e+02 ] : Angles/Angle/angle/[*;r6:1]~;@[*;r5:2]~;@[*;r5;x2:3]
+ 101 [  1.5542e+02 ] : Angles/Angle/k/[*;r6:1]~;@[*;r5:2]~;@[*;r5;x2:3]
+ 102 [  1.2510e+02 ] : Angles/Angle/angle/[*:1]~;!@[*;X3;r5:2]~;@[*;r5:3]
+ 103 [  1.0660e+02 ] : Angles/Angle/k/[*:1]~;!@[*;X3;r5:2]~;@[*;r5:3]
+ 104 [  1.2812e+02 ] : Angles/Angle/angle/[#8X1:1]~[#6X3:2]~[#8:3]
+ 105 [  1.1522e+02 ] : Angles/Angle/k/[#8X1:1]~[#6X3:2]~[#8:3]
+ 106 [  1.7835e+02 ] : Angles/Angle/angle/[*:1]~[#6X2:2]~[*:3]
+ 107 [  1.0553e+02 ] : Angles/Angle/k/[*:1]~[#6X2:2]~[*:3]
+ 108 [  1.1260e+02 ] : Angles/Angle/angle/[*:1]~[#7X4,#7X3,#7X2-1:2]~[*:3]
+ 109 [  2.7819e+02 ] : Angles/Angle/k/[*:1]~[#7X4,#7X3,#7X2-1:2]~[*:3]
+ 110 [  9.7872e+01 ] : Angles/Angle/angle/[*:1]@-[r!r6;#7X4,#7X3,#7X2-1:2]@-[*:3]
+ 111 [  2.1002e+02 ] : Angles/Angle/k/[*:1]@-[r!r6;#7X4,#7X3,#7X2-1:2]@-[*:3]
+ 112 [  1.0874e+02 ] : Angles/Angle/angle/[#1:1]-[#7X4,#7X3,#7X2-1:2]-[*:3]
+ 113 [  1.0476e+02 ] : Angles/Angle/k/[#1:1]-[#7X4,#7X3,#7X2-1:2]-[*:3]
+ 114 [  1.2036e+02 ] : Angles/Angle/angle/[*:1]~[#7X3$(*~[#6X3,#6X2,#7X2+0]):2]~[*:3]
+ 115 [  1.6028e+02 ] : Angles/Angle/k/[*:1]~[#7X3$(*~[#6X3,#6X2,#7X2+0]):2]~[*:3]
+ 116 [  1.1892e+02 ] : Angles/Angle/angle/[#1:1]-[#7X3$(*~[#6X3,#6X2,#7X2+0]):2]-[*:3]
+ 117 [  7.0182e+01 ] : Angles/Angle/k/[#1:1]-[#7X3$(*~[#6X3,#6X2,#7X2+0]):2]-[*:3]
+ 118 [  1.1773e+02 ] : Angles/Angle/angle/[*:1]~[#7X2+0:2]~[*:3]
+ 119 [  2.9286e+02 ] : Angles/Angle/k/[*:1]~[#7X2+0:2]~[*:3]
+ 120 [  1.1484e+02 ] : Angles/Angle/angle/[*:1]-[#8:2]-[*:3]
+ 121 [  2.7636e+02 ] : Angles/Angle/k/[*:1]-[#8:2]-[*:3]
+ 122 [  1.0547e+02 ] : Angles/Angle/angle/[#6X3,#7:1]~;@[#8;r:2]~;@[#6X3,#7:3]
+ 123 [  3.1880e+02 ] : Angles/Angle/k/[#6X3,#7:1]~;@[#8;r:2]~;@[#6X3,#7:3]
+ 124 [  1.1908e+02 ] : Angles/Angle/angle/[*:1]~[#16X4:2]~[*:3]
+ 125 [  1.9805e+02 ] : Angles/Angle/k/[*:1]~[#16X4:2]~[*:3]
+ 126 [  1.0731e+02 ] : Angles/Angle/angle/[*:1]-[#16X4,#16X3+0:2]~[*:3]
+ 127 [  2.4187e+02 ] : Angles/Angle/k/[*:1]-[#16X4,#16X3+0:2]~[*:3]
+ 128 [  8.9690e+01 ] : Angles/Angle/angle/[#6X3:1]-[#16X2:2]-[#6X3:3]
+ 129 [  2.0523e+02 ] : Angles/Angle/k/[#6X3:1]-[#16X2:2]-[#6X3:3]
+ 130 [  1.0763e+02 ] : Angles/Angle/angle/[*;r5:1]1@[*;r5:2]@[*;r5:3]@[*;r5]@[*;r5]1
+ 131 [  1.8042e+02 ] : Angles/Angle/k/[*;r5:1]1@[*;r5:2]@[*;r5:3]@[*;r5]@[*;r5]1
+ 132 [  6.0000e+01 ] : Angles/Angle/angle/[*;r3:1]1~;@[*;r3:2]~;@[*;r3:3]1
+ 133 [  1.0989e+02 ] : Angles/Angle/k/[*;r3:1]1~;@[*;r3:2]~;@[*;r3:3]1
+ 134 [  1.5037e-01 ] : ProperTorsions/Proper/k1/[*:1]-[#6X4:2]-[#6X4:3]-[*:4]
+ 135 [  4.8762e-02 ] : ProperTorsions/Proper/k3/[#6X4:1]-[#6X4:2]-[#6X4:3]-[#6X4:4]
+ 136 [  1.4876e-01 ] : ProperTorsions/Proper/k1/[#6X4:1]-[#6X4:2]-[#6X4:3]-[#6X4:4]
+ 137 [  4.4253e-02 ] : ProperTorsions/Proper/k2/[#6X4:1]-[#6X4:2]-[#6X4:3]-[#6X4:4]
+ 138 [  1.4343e-01 ] : ProperTorsions/Proper/k1/[#1:1]-[#6X4:2]-[#6X4:3]-[#1:4]
+ 139 [  1.3648e-01 ] : ProperTorsions/Proper/k1/[#1:1]-[#6X4:2]-[#6X4:3]-[#6X4:4]
+ 140 [  4.7268e-01 ] : ProperTorsions/Proper/k1/[*:1]~[#6X3:2]-[#6X4:3]-[*:4]
+ 141 [ -3.9707e-01 ] : ProperTorsions/Proper/k1/[*:1]-[#6X4:2]-[#6X3:3]=[*:4]
+ 142 [ -8.4659e-02 ] : ProperTorsions/Proper/k1/[#1:1]-[#6X4:2]-[#6X3:3]=[#6X3:4]
+ 143 [  4.6945e-01 ] : ProperTorsions/Proper/k2/[#1:1]-[#6X4:2]-[#6X3:3]=[#6X3:4]
+ 144 [  4.1392e+00 ] : ProperTorsions/Proper/k1/[*:1]-,:[#6X3:2]=[#6X3:3]-,:[*:4]
+ 145 [  7.8004e-03 ] : ProperTorsions/Proper/k1/[#6X4:1]-[#6X3:2]=[#6X3:3]-[#6X4:4]
+ 146 [ -5.2408e+00 ] : ProperTorsions/Proper/k2/[#6X4:1]-[#6X3:2]=[#6X3:3]-[#6X4:4]
+ 147 [  1.4124e+01 ] : ImproperTorsions/Improper/k1/[*:1]~[#6X3:2](~[*:3])~[*:4]
+ 148 [  1.3037e+01 ] : ImproperTorsions/Improper/k1/[*:1]~[#6X3:2](~[#8X1:3])~[#8:4]
+ 149 [  1.3645e+01 ] : ImproperTorsions/Improper/k1/[*:1]~[#7X3$(*~[#15,#16](!-[*])):2](~[*:3])~[*:4]
+ 150 [  1.2794e+00 ] : ImproperTorsions/Improper/k1/[*:1]~[#7X3$(*~[#6X3]):2](~[*:3])~[*:4]
+ 151 [ -2.2493e+00 ] : ImproperTorsions/Improper/k1/[*:1]~[#7X3$(*~[#7X2]):2](~[*:3])~[*:4]
+ 152 [  1.5972e+01 ] : ImproperTorsions/Improper/k1/[*:1]~[#7X3$(*@1-[*]=,:[*][*]=,:[*]@1):2](~[*:3])~[*:4]
+ 153 [  1.0030e+01 ] : ImproperTorsions/Improper/k1/[*:1]~[#6X3:2](=[#7X2,#7X3+1:3])~[#7:4]
+ 154 [  1.5779e-02 ] : vdW/Atom/epsilon/[#1:1]-[#6X4]
+ 155 [  1.4842e+00 ] : vdW/Atom/rmin_half/[#1:1]-[#6X4]
+ 156 [  1.5611e-02 ] : vdW/Atom/epsilon/[#1:1]-[#6X3]
+ 157 [  1.4438e+00 ] : vdW/Atom/rmin_half/[#1:1]-[#6X3]
+ 158 [  8.6879e-02 ] : vdW/Atom/epsilon/[#6:1]
+ 159 [  1.9534e+00 ] : vdW/Atom/rmin_half/[#6:1]
+ 160 [  1.0884e-01 ] : vdW/Atom/epsilon/[#6X4:1]
+ 161 [  1.8967e+00 ] : vdW/Atom/rmin_half/[#6X4:1]
+-----------------------------------------------------------
+#=========================================================#
+#| [91m Rescaling Factors by Type (Lower Takes Precedence): [0m |#
+#=========================================================#
+   Bonds/Bond/k                         : 2.66757e+03
+   Bonds/Bond/length                    : 1.91777e+00
+   Angles/Angle/angle                   : 1.78351e+02
+   Angles/Angle/k                       : 3.18796e+02
+   ProperTorsions/Proper/k1             : 4.13923e+00
+   ProperTorsions/Proper/k3             : 4.87624e-02
+   ProperTorsions/Proper/k2             : 5.24078e+00
+   ImproperTorsions/Improper/k1         : 1.59721e+01
+   vdW/Atom/epsilon                     : 1.00000e+00
+   vdW/Atom/rmin_half                   : 1.00000e+01
+-----------------------------------------------------------
+#========================================================#
+#| [91m   Rescaling Types / Factors by Parameter Number:   [0m |#
+#========================================================#
+   0 [    Bonds/Bond/k                  : 2.66757e+03 ] : Bonds/Bond/k/[#6X4:1]-[#6X4:2]
+   1 [    Bonds/Bond/length             : 1.91777e+00 ] : Bonds/Bond/length/[#6X4:1]-[#6X4:2]
+   2 [    Bonds/Bond/k                  : 2.66757e+03 ] : Bonds/Bond/k/[#6X4:1]-[#6X3:2]
+   3 [    Bonds/Bond/length             : 1.91777e+00 ] : Bonds/Bond/length/[#6X4:1]-[#6X3:2]
+   4 [    Bonds/Bond/k                  : 2.66757e+03 ] : Bonds/Bond/k/[#6X4:1]-[#6X3:2]=[#8X1+0]
+   5 [    Bonds/Bond/length             : 1.91777e+00 ] : Bonds/Bond/length/[#6X4:1]-[#6X3:2]=[#8X1+0]
+   6 [    Bonds/Bond/k                  : 2.66757e+03 ] : Bonds/Bond/k/[#6X3:1]-[#6X3:2]
+   7 [    Bonds/Bond/length             : 1.91777e+00 ] : Bonds/Bond/length/[#6X3:1]-[#6X3:2]
+   8 [    Bonds/Bond/k                  : 2.66757e+03 ] : Bonds/Bond/k/[#6X3:1]:[#6X3:2]
+   9 [    Bonds/Bond/length             : 1.91777e+00 ] : Bonds/Bond/length/[#6X3:1]:[#6X3:2]
+  10 [    Bonds/Bond/k                  : 2.66757e+03 ] : Bonds/Bond/k/[#6X3:1]=[#6X3:2]
+  11 [    Bonds/Bond/length             : 1.91777e+00 ] : Bonds/Bond/length/[#6X3:1]=[#6X3:2]
+  12 [    Bonds/Bond/k                  : 2.66757e+03 ] : Bonds/Bond/k/[#6:1]-[#7:2]
+  13 [    Bonds/Bond/length             : 1.91777e+00 ] : Bonds/Bond/length/[#6:1]-[#7:2]
+  14 [    Bonds/Bond/k                  : 2.66757e+03 ] : Bonds/Bond/k/[#6X3:1]-[#7X3:2]
+  15 [    Bonds/Bond/length             : 1.91777e+00 ] : Bonds/Bond/length/[#6X3:1]-[#7X3:2]
+  16 [    Bonds/Bond/k                  : 2.66757e+03 ] : Bonds/Bond/k/[#6X4:1]-[#7X3:2]-[#6X3]=[#8X1+0]
+  17 [    Bonds/Bond/length             : 1.91777e+00 ] : Bonds/Bond/length/[#6X4:1]-[#7X3:2]-[#6X3]=[#8X1+0]
+  18 [    Bonds/Bond/k                  : 2.66757e+03 ] : Bonds/Bond/k/[#6X3:1](=[#8X1+0])-[#7X3:2]
+  19 [    Bonds/Bond/length             : 1.91777e+00 ] : Bonds/Bond/length/[#6X3:1](=[#8X1+0])-[#7X3:2]
+  20 [    Bonds/Bond/k                  : 2.66757e+03 ] : Bonds/Bond/k/[#6X3:1]-[#7X2:2]
+  21 [    Bonds/Bond/length             : 1.91777e+00 ] : Bonds/Bond/length/[#6X3:1]-[#7X2:2]
+  22 [    Bonds/Bond/k                  : 2.66757e+03 ] : Bonds/Bond/k/[#6X3:1]:[#7X2,#7X3+1:2]
+  23 [    Bonds/Bond/length             : 1.91777e+00 ] : Bonds/Bond/length/[#6X3:1]:[#7X2,#7X3+1:2]
+  24 [    Bonds/Bond/k                  : 2.66757e+03 ] : Bonds/Bond/k/[#6X3:1]=[#7X2,#7X3+1:2]
+  25 [    Bonds/Bond/length             : 1.91777e+00 ] : Bonds/Bond/length/[#6X3:1]=[#7X2,#7X3+1:2]
+  26 [    Bonds/Bond/k                  : 2.66757e+03 ] : Bonds/Bond/k/[#6:1]-[#8:2]
+  27 [    Bonds/Bond/length             : 1.91777e+00 ] : Bonds/Bond/length/[#6:1]-[#8:2]
+  28 [    Bonds/Bond/k                  : 2.66757e+03 ] : Bonds/Bond/k/[#6X3:1]-[#8X1-1:2]
+  29 [    Bonds/Bond/length             : 1.91777e+00 ] : Bonds/Bond/length/[#6X3:1]-[#8X1-1:2]
+  30 [    Bonds/Bond/k                  : 2.66757e+03 ] : Bonds/Bond/k/[#6X4:1]-[#8X2H0:2]
+  31 [    Bonds/Bond/length             : 1.91777e+00 ] : Bonds/Bond/length/[#6X4:1]-[#8X2H0:2]
+  32 [    Bonds/Bond/k                  : 2.66757e+03 ] : Bonds/Bond/k/[#6X3:1]-[#8X2:2]
+  33 [    Bonds/Bond/length             : 1.91777e+00 ] : Bonds/Bond/length/[#6X3:1]-[#8X2:2]
+  34 [    Bonds/Bond/k                  : 2.66757e+03 ] : Bonds/Bond/k/[#6X3:1]-[#8X2H1:2]
+  35 [    Bonds/Bond/length             : 1.91777e+00 ] : Bonds/Bond/length/[#6X3:1]-[#8X2H1:2]
+  36 [    Bonds/Bond/k                  : 2.66757e+03 ] : Bonds/Bond/k/[#6X3a:1]-[#8X2H0:2]
+  37 [    Bonds/Bond/length             : 1.91777e+00 ] : Bonds/Bond/length/[#6X3a:1]-[#8X2H0:2]
+  38 [    Bonds/Bond/k                  : 2.66757e+03 ] : Bonds/Bond/k/[#6X3:1](=[#8X1])-[#8X2H0:2]
+  39 [    Bonds/Bond/length             : 1.91777e+00 ] : Bonds/Bond/length/[#6X3:1](=[#8X1])-[#8X2H0:2]
+  40 [    Bonds/Bond/k                  : 2.66757e+03 ] : Bonds/Bond/k/[#6:1]=[#8X1+0,#8X2+1:2]
+  41 [    Bonds/Bond/length             : 1.91777e+00 ] : Bonds/Bond/length/[#6:1]=[#8X1+0,#8X2+1:2]
+  42 [    Bonds/Bond/k                  : 2.66757e+03 ] : Bonds/Bond/k/[#6X3:1](~[#8X1])~[#8X1:2]
+  43 [    Bonds/Bond/length             : 1.91777e+00 ] : Bonds/Bond/length/[#6X3:1](~[#8X1])~[#8X1:2]
+  44 [    Bonds/Bond/k                  : 2.66757e+03 ] : Bonds/Bond/k/[#6X2:1]-[#6:2]
+  45 [    Bonds/Bond/length             : 1.91777e+00 ] : Bonds/Bond/length/[#6X2:1]-[#6:2]
+  46 [    Bonds/Bond/k                  : 2.66757e+03 ] : Bonds/Bond/k/[#6:1]#[#7:2]
+  47 [    Bonds/Bond/length             : 1.91777e+00 ] : Bonds/Bond/length/[#6:1]#[#7:2]
+  48 [    Bonds/Bond/k                  : 2.66757e+03 ] : Bonds/Bond/k/[#7X3:1]-[#7X2:2]
+  49 [    Bonds/Bond/length             : 1.91777e+00 ] : Bonds/Bond/length/[#7X3:1]-[#7X2:2]
+  50 [    Bonds/Bond/k                  : 2.66757e+03 ] : Bonds/Bond/k/[#7X2:1]-[#7X2:2]
+  51 [    Bonds/Bond/length             : 1.91777e+00 ] : Bonds/Bond/length/[#7X2:1]-[#7X2:2]
+  52 [    Bonds/Bond/k                  : 2.66757e+03 ] : Bonds/Bond/k/[#7:1]=[#7:2]
+  53 [    Bonds/Bond/length             : 1.91777e+00 ] : Bonds/Bond/length/[#7:1]=[#7:2]
+  54 [    Bonds/Bond/k                  : 2.66757e+03 ] : Bonds/Bond/k/[#16X2,#16X1-1,#16X3+1:1]-[#6X4:2]
+  55 [    Bonds/Bond/length             : 1.91777e+00 ] : Bonds/Bond/length/[#16X2,#16X1-1,#16X3+1:1]-[#6X4:2]
+  56 [    Bonds/Bond/k                  : 2.66757e+03 ] : Bonds/Bond/k/[#16X2,#16X1-1,#16X3+1:1]-[#6X3:2]
+  57 [    Bonds/Bond/length             : 1.91777e+00 ] : Bonds/Bond/length/[#16X2,#16X1-1,#16X3+1:1]-[#6X3:2]
+  58 [    Bonds/Bond/k                  : 2.66757e+03 ] : Bonds/Bond/k/[#16X4,#16X3!+1:1]-[#6:2]
+  59 [    Bonds/Bond/length             : 1.91777e+00 ] : Bonds/Bond/length/[#16X4,#16X3!+1:1]-[#6:2]
+  60 [    Bonds/Bond/k                  : 2.66757e+03 ] : Bonds/Bond/k/[#16X4,#16X3:1]~[#7:2]
+  61 [    Bonds/Bond/length             : 1.91777e+00 ] : Bonds/Bond/length/[#16X4,#16X3:1]~[#7:2]
+  62 [    Bonds/Bond/k                  : 2.66757e+03 ] : Bonds/Bond/k/[#16X4,#16X3:1]~[#8X1:2]
+  63 [    Bonds/Bond/length             : 1.91777e+00 ] : Bonds/Bond/length/[#16X4,#16X3:1]~[#8X1:2]
+  64 [    Bonds/Bond/k                  : 2.66757e+03 ] : Bonds/Bond/k/[#6:1]-[#9:2]
+  65 [    Bonds/Bond/length             : 1.91777e+00 ] : Bonds/Bond/length/[#6:1]-[#9:2]
+  66 [    Bonds/Bond/k                  : 2.66757e+03 ] : Bonds/Bond/k/[#6X4:1]-[#9:2]
+  67 [    Bonds/Bond/length             : 1.91777e+00 ] : Bonds/Bond/length/[#6X4:1]-[#9:2]
+  68 [    Bonds/Bond/k                  : 2.66757e+03 ] : Bonds/Bond/k/[#6:1]-[#17:2]
+  69 [    Bonds/Bond/length             : 1.91777e+00 ] : Bonds/Bond/length/[#6:1]-[#17:2]
+  70 [    Bonds/Bond/k                  : 2.66757e+03 ] : Bonds/Bond/k/[#6:1]-[#35:2]
+  71 [    Bonds/Bond/length             : 1.91777e+00 ] : Bonds/Bond/length/[#6:1]-[#35:2]
+  72 [    Bonds/Bond/k                  : 2.66757e+03 ] : Bonds/Bond/k/[#6X4:1]-[#1:2]
+  73 [    Bonds/Bond/length             : 1.91777e+00 ] : Bonds/Bond/length/[#6X4:1]-[#1:2]
+  74 [    Bonds/Bond/k                  : 2.66757e+03 ] : Bonds/Bond/k/[#6X3:1]-[#1:2]
+  75 [    Bonds/Bond/length             : 1.91777e+00 ] : Bonds/Bond/length/[#6X3:1]-[#1:2]
+  76 [    Bonds/Bond/k                  : 2.66757e+03 ] : Bonds/Bond/k/[#7:1]-[#1:2]
+  77 [    Bonds/Bond/length             : 1.91777e+00 ] : Bonds/Bond/length/[#7:1]-[#1:2]
+  78 [    Bonds/Bond/k                  : 2.66757e+03 ] : Bonds/Bond/k/[#8:1]-[#1:2]
+  79 [    Bonds/Bond/length             : 1.91777e+00 ] : Bonds/Bond/length/[#8:1]-[#1:2]
+  80 [    Angles/Angle/angle            : 1.78351e+02 ] : Angles/Angle/angle/[*:1]~[#6X4:2]-[*:3]
+  81 [    Angles/Angle/k                : 3.18796e+02 ] : Angles/Angle/k/[*:1]~[#6X4:2]-[*:3]
+  82 [    Angles/Angle/angle            : 1.78351e+02 ] : Angles/Angle/angle/[#1:1]-[#6X4:2]-[#1:3]
+  83 [    Angles/Angle/k                : 3.18796e+02 ] : Angles/Angle/k/[#1:1]-[#6X4:2]-[#1:3]
+  84 [    Angles/Angle/angle            : 1.78351e+02 ] : Angles/Angle/angle/[*;r3:1]~;@[*;r3:2]~;!@[*:3]
+  85 [    Angles/Angle/k                : 3.18796e+02 ] : Angles/Angle/k/[*;r3:1]~;@[*;r3:2]~;!@[*:3]
+  86 [    Angles/Angle/angle            : 1.78351e+02 ] : Angles/Angle/angle/[*:1]~;!@[*;r3:2]~;!@[*:3]
+  87 [    Angles/Angle/k                : 3.18796e+02 ] : Angles/Angle/k/[*:1]~;!@[*;r3:2]~;!@[*:3]
+  88 [    Angles/Angle/angle            : 1.78351e+02 ] : Angles/Angle/angle/[#1:1]-[*;r3:2]~;!@[*:3]
+  89 [    Angles/Angle/k                : 3.18796e+02 ] : Angles/Angle/k/[#1:1]-[*;r3:2]~;!@[*:3]
+  90 [    Angles/Angle/angle            : 1.78351e+02 ] : Angles/Angle/angle/[#6r4:1]-;@[#6r4:2]-;@[#6r4:3]
+  91 [    Angles/Angle/k                : 3.18796e+02 ] : Angles/Angle/k/[#6r4:1]-;@[#6r4:2]-;@[#6r4:3]
+  92 [    Angles/Angle/angle            : 1.78351e+02 ] : Angles/Angle/angle/[!#1:1]-[#6r4:2]-;!@[!#1:3]
+  93 [    Angles/Angle/k                : 3.18796e+02 ] : Angles/Angle/k/[!#1:1]-[#6r4:2]-;!@[!#1:3]
+  94 [    Angles/Angle/angle            : 1.78351e+02 ] : Angles/Angle/angle/[!#1:1]-[#6r4:2]-;!@[#1:3]
+  95 [    Angles/Angle/k                : 3.18796e+02 ] : Angles/Angle/k/[!#1:1]-[#6r4:2]-;!@[#1:3]
+  96 [    Angles/Angle/angle            : 1.78351e+02 ] : Angles/Angle/angle/[*:1]~[#6X3:2]~[*:3]
+  97 [    Angles/Angle/k                : 3.18796e+02 ] : Angles/Angle/k/[*:1]~[#6X3:2]~[*:3]
+  98 [    Angles/Angle/angle            : 1.78351e+02 ] : Angles/Angle/angle/[#1:1]-[#6X3:2]~[*:3]
+  99 [    Angles/Angle/k                : 3.18796e+02 ] : Angles/Angle/k/[#1:1]-[#6X3:2]~[*:3]
+ 100 [    Angles/Angle/angle            : 1.78351e+02 ] : Angles/Angle/angle/[*;r6:1]~;@[*;r5:2]~;@[*;r5;x2:3]
+ 101 [    Angles/Angle/k                : 3.18796e+02 ] : Angles/Angle/k/[*;r6:1]~;@[*;r5:2]~;@[*;r5;x2:3]
+ 102 [    Angles/Angle/angle            : 1.78351e+02 ] : Angles/Angle/angle/[*:1]~;!@[*;X3;r5:2]~;@[*;r5:3]
+ 103 [    Angles/Angle/k                : 3.18796e+02 ] : Angles/Angle/k/[*:1]~;!@[*;X3;r5:2]~;@[*;r5:3]
+ 104 [    Angles/Angle/angle            : 1.78351e+02 ] : Angles/Angle/angle/[#8X1:1]~[#6X3:2]~[#8:3]
+ 105 [    Angles/Angle/k                : 3.18796e+02 ] : Angles/Angle/k/[#8X1:1]~[#6X3:2]~[#8:3]
+ 106 [    Angles/Angle/angle            : 1.78351e+02 ] : Angles/Angle/angle/[*:1]~[#6X2:2]~[*:3]
+ 107 [    Angles/Angle/k                : 3.18796e+02 ] : Angles/Angle/k/[*:1]~[#6X2:2]~[*:3]
+ 108 [    Angles/Angle/angle            : 1.78351e+02 ] : Angles/Angle/angle/[*:1]~[#7X4,#7X3,#7X2-1:2]~[*:3]
+ 109 [    Angles/Angle/k                : 3.18796e+02 ] : Angles/Angle/k/[*:1]~[#7X4,#7X3,#7X2-1:2]~[*:3]
+ 110 [    Angles/Angle/angle            : 1.78351e+02 ] : Angles/Angle/angle/[*:1]@-[r!r6;#7X4,#7X3,#7X2-1:2]@-[*:3]
+ 111 [    Angles/Angle/k                : 3.18796e+02 ] : Angles/Angle/k/[*:1]@-[r!r6;#7X4,#7X3,#7X2-1:2]@-[*:3]
+ 112 [    Angles/Angle/angle            : 1.78351e+02 ] : Angles/Angle/angle/[#1:1]-[#7X4,#7X3,#7X2-1:2]-[*:3]
+ 113 [    Angles/Angle/k                : 3.18796e+02 ] : Angles/Angle/k/[#1:1]-[#7X4,#7X3,#7X2-1:2]-[*:3]
+ 114 [    Angles/Angle/angle            : 1.78351e+02 ] : Angles/Angle/angle/[*:1]~[#7X3$(*~[#6X3,#6X2,#7X2+0]):2]~[*:3]
+ 115 [    Angles/Angle/k                : 3.18796e+02 ] : Angles/Angle/k/[*:1]~[#7X3$(*~[#6X3,#6X2,#7X2+0]):2]~[*:3]
+ 116 [    Angles/Angle/angle            : 1.78351e+02 ] : Angles/Angle/angle/[#1:1]-[#7X3$(*~[#6X3,#6X2,#7X2+0]):2]-[*:3]
+ 117 [    Angles/Angle/k                : 3.18796e+02 ] : Angles/Angle/k/[#1:1]-[#7X3$(*~[#6X3,#6X2,#7X2+0]):2]-[*:3]
+ 118 [    Angles/Angle/angle            : 1.78351e+02 ] : Angles/Angle/angle/[*:1]~[#7X2+0:2]~[*:3]
+ 119 [    Angles/Angle/k                : 3.18796e+02 ] : Angles/Angle/k/[*:1]~[#7X2+0:2]~[*:3]
+ 120 [    Angles/Angle/angle            : 1.78351e+02 ] : Angles/Angle/angle/[*:1]-[#8:2]-[*:3]
+ 121 [    Angles/Angle/k                : 3.18796e+02 ] : Angles/Angle/k/[*:1]-[#8:2]-[*:3]
+ 122 [    Angles/Angle/angle            : 1.78351e+02 ] : Angles/Angle/angle/[#6X3,#7:1]~;@[#8;r:2]~;@[#6X3,#7:3]
+ 123 [    Angles/Angle/k                : 3.18796e+02 ] : Angles/Angle/k/[#6X3,#7:1]~;@[#8;r:2]~;@[#6X3,#7:3]
+ 124 [    Angles/Angle/angle            : 1.78351e+02 ] : Angles/Angle/angle/[*:1]~[#16X4:2]~[*:3]
+ 125 [    Angles/Angle/k                : 3.18796e+02 ] : Angles/Angle/k/[*:1]~[#16X4:2]~[*:3]
+ 126 [    Angles/Angle/angle            : 1.78351e+02 ] : Angles/Angle/angle/[*:1]-[#16X4,#16X3+0:2]~[*:3]
+ 127 [    Angles/Angle/k                : 3.18796e+02 ] : Angles/Angle/k/[*:1]-[#16X4,#16X3+0:2]~[*:3]
+ 128 [    Angles/Angle/angle            : 1.78351e+02 ] : Angles/Angle/angle/[#6X3:1]-[#16X2:2]-[#6X3:3]
+ 129 [    Angles/Angle/k                : 3.18796e+02 ] : Angles/Angle/k/[#6X3:1]-[#16X2:2]-[#6X3:3]
+ 130 [    Angles/Angle/angle            : 1.78351e+02 ] : Angles/Angle/angle/[*;r5:1]1@[*;r5:2]@[*;r5:3]@[*;r5]@[*;r5]1
+ 131 [    Angles/Angle/k                : 3.18796e+02 ] : Angles/Angle/k/[*;r5:1]1@[*;r5:2]@[*;r5:3]@[*;r5]@[*;r5]1
+ 132 [    Angles/Angle/angle            : 1.78351e+02 ] : Angles/Angle/angle/[*;r3:1]1~;@[*;r3:2]~;@[*;r3:3]1
+ 133 [    Angles/Angle/k                : 3.18796e+02 ] : Angles/Angle/k/[*;r3:1]1~;@[*;r3:2]~;@[*;r3:3]1
+ 134 [    ProperTorsions/Proper/k1      : 4.13923e+00 ] : ProperTorsions/Proper/k1/[*:1]-[#6X4:2]-[#6X4:3]-[*:4]
+ 135 [    ProperTorsions/Proper/k3      : 4.87624e-02 ] : ProperTorsions/Proper/k3/[#6X4:1]-[#6X4:2]-[#6X4:3]-[#6X4:4]
+ 136 [    ProperTorsions/Proper/k1      : 4.13923e+00 ] : ProperTorsions/Proper/k1/[#6X4:1]-[#6X4:2]-[#6X4:3]-[#6X4:4]
+ 137 [    ProperTorsions/Proper/k2      : 5.24078e+00 ] : ProperTorsions/Proper/k2/[#6X4:1]-[#6X4:2]-[#6X4:3]-[#6X4:4]
+ 138 [    ProperTorsions/Proper/k1      : 4.13923e+00 ] : ProperTorsions/Proper/k1/[#1:1]-[#6X4:2]-[#6X4:3]-[#1:4]
+ 139 [    ProperTorsions/Proper/k1      : 4.13923e+00 ] : ProperTorsions/Proper/k1/[#1:1]-[#6X4:2]-[#6X4:3]-[#6X4:4]
+ 140 [    ProperTorsions/Proper/k1      : 4.13923e+00 ] : ProperTorsions/Proper/k1/[*:1]~[#6X3:2]-[#6X4:3]-[*:4]
+ 141 [    ProperTorsions/Proper/k1      : 4.13923e+00 ] : ProperTorsions/Proper/k1/[*:1]-[#6X4:2]-[#6X3:3]=[*:4]
+ 142 [    ProperTorsions/Proper/k1      : 4.13923e+00 ] : ProperTorsions/Proper/k1/[#1:1]-[#6X4:2]-[#6X3:3]=[#6X3:4]
+ 143 [    ProperTorsions/Proper/k2      : 5.24078e+00 ] : ProperTorsions/Proper/k2/[#1:1]-[#6X4:2]-[#6X3:3]=[#6X3:4]
+ 144 [    ProperTorsions/Proper/k1      : 4.13923e+00 ] : ProperTorsions/Proper/k1/[*:1]-,:[#6X3:2]=[#6X3:3]-,:[*:4]
+ 145 [    ProperTorsions/Proper/k1      : 4.13923e+00 ] : ProperTorsions/Proper/k1/[#6X4:1]-[#6X3:2]=[#6X3:3]-[#6X4:4]
+ 146 [    ProperTorsions/Proper/k2      : 5.24078e+00 ] : ProperTorsions/Proper/k2/[#6X4:1]-[#6X3:2]=[#6X3:3]-[#6X4:4]
+ 147 [    ImproperTorsions/Improper/k1  : 1.59721e+01 ] : ImproperTorsions/Improper/k1/[*:1]~[#6X3:2](~[*:3])~[*:4]
+ 148 [    ImproperTorsions/Improper/k1  : 1.59721e+01 ] : ImproperTorsions/Improper/k1/[*:1]~[#6X3:2](~[#8X1:3])~[#8:4]
+ 149 [    ImproperTorsions/Improper/k1  : 1.59721e+01 ] : ImproperTorsions/Improper/k1/[*:1]~[#7X3$(*~[#15,#16](!-[*])):2](~[*:3])~[*:4]
+ 150 [    ImproperTorsions/Improper/k1  : 1.59721e+01 ] : ImproperTorsions/Improper/k1/[*:1]~[#7X3$(*~[#6X3]):2](~[*:3])~[*:4]
+ 151 [    ImproperTorsions/Improper/k1  : 1.59721e+01 ] : ImproperTorsions/Improper/k1/[*:1]~[#7X3$(*~[#7X2]):2](~[*:3])~[*:4]
+ 152 [    ImproperTorsions/Improper/k1  : 1.59721e+01 ] : ImproperTorsions/Improper/k1/[*:1]~[#7X3$(*@1-[*]=,:[*][*]=,:[*]@1):2](~[*:3])~[*:4]
+ 153 [    ImproperTorsions/Improper/k1  : 1.59721e+01 ] : ImproperTorsions/Improper/k1/[*:1]~[#6X3:2](=[#7X2,#7X3+1:3])~[#7:4]
+ 154 [    vdW/Atom/epsilon              : 1.00000e+00 ] : vdW/Atom/epsilon/[#1:1]-[#6X4]
+ 155 [    vdW/Atom/rmin_half            : 1.00000e+01 ] : vdW/Atom/rmin_half/[#1:1]-[#6X4]
+ 156 [    vdW/Atom/epsilon              : 1.00000e+00 ] : vdW/Atom/epsilon/[#1:1]-[#6X3]
+ 157 [    vdW/Atom/rmin_half            : 1.00000e+01 ] : vdW/Atom/rmin_half/[#1:1]-[#6X3]
+ 158 [    vdW/Atom/epsilon              : 1.00000e+00 ] : vdW/Atom/epsilon/[#6:1]
+ 159 [    vdW/Atom/rmin_half            : 1.00000e+01 ] : vdW/Atom/rmin_half/[#6:1]
+ 160 [    vdW/Atom/epsilon              : 1.00000e+00 ] : vdW/Atom/epsilon/[#6X4:1]
+ 161 [    vdW/Atom/rmin_half            : 1.00000e+01 ] : vdW/Atom/rmin_half/[#6X4:1]
+----------------------------------------------------------
+#========================================================#
+#| [92m               Setup for force field                [0m |#
+#========================================================#
+fnms                      ['force_field_tagged.offxml'] 
+priors                    OrderedDict([('vdW/Atom/epsilon', 1.0), ('vdW/Atom/rmin_half', 10.0)]) 
+----------------------------------------------------------
+targets/pure_data/options.json
+-- Force field done --
+Test job finished.
