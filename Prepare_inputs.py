@@ -37,7 +37,7 @@ def check_dataset(dataset):
 
 def load_and_tag_forcefield(data_set, forcefield):
     """
-    Load the force field from the file that is in your current directory.
+    Load the force field and tag.
     """
     current_directory = os.getcwd()
     forcefield_path = os.path.join(current_directory, forcefield)
@@ -70,8 +70,8 @@ def create_FB_estimator_options(dataset):
     """
     # Create the ForceBalance options object
     target_options = Evaluator_SMIRNOFF.OptionsFile()
-    # Set the path to the data set
-    target_options.data_set_path = dataset
+    # Set the path to the data set #set the path, not enumerate ab object 
+    target_options.data_set_path = "training_set.json"
 
 
     # Both properties will contribute equally to the objective function.
@@ -101,14 +101,14 @@ if __name__ == "__main__":
         "--data_set_name",
         '-d',
         type=str,
-        default="filtered_data_set.json",
+        default="filtered_data_set_alkanes.json",
         help="Name of data set file.",
     )
     parser.add_argument(
         "--forcefield",
         '-f',
         type=str,
-        default="openff-1.0.0.offxml",
+        default="sage2.2.1-alkanes-filtered-no-cosmetic-att.offxml",
         help="Name of force field file.",
     )
     args = parser.parse_args()
