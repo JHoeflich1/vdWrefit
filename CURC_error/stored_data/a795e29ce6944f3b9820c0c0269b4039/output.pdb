@@ -1,0 +1,98 @@
+REMARK   1 CREATED WITH OPENMM 8.2, 2025-05-14
+CRYST1   38.075   38.075   38.075  90.00  90.00  90.00 P 1           1 
+HETATM    1  C1  KLZ A   1      92.286 114.027 224.515  1.00  0.00           C  
+HETATM    2  C2  KLZ A   1      92.899 112.618 224.628  1.00  0.00           C  
+HETATM    3  C3  KLZ A   1      91.922 111.473 225.005  1.00  0.00           C  
+HETATM    4  C4  KLZ A   1      92.658 110.130 225.189  1.00  0.00           C  
+HETATM    5  C5  KLZ A   1      91.624 109.024 225.524  1.00  0.00           C  
+HETATM    6  C6  KLZ A   1      92.305 107.687 225.471  1.00  0.00           C  
+HETATM    7  C7  KLZ A   1      93.302 107.507 226.600  1.00  0.00           C  
+HETATM    8  C8  KLZ A   1      92.719 107.413 228.030  1.00  0.00           C  
+HETATM    9  C9  KLZ A   1      92.748 108.727 228.902  1.00  0.00           C  
+HETATM   10  C10 KLZ A   1      91.597 108.576 230.010  1.00  0.00           C  
+HETATM   11  C11 KLZ A   1      91.867 109.708 231.075  1.00  0.00           C  
+HETATM   12  C12 KLZ A   1      90.634 110.047 231.901  1.00  0.00           C  
+HETATM   13  C13 KLZ A   1      90.786 111.238 232.865  1.00  0.00           C  
+HETATM   14  C14 KLZ A   1      89.483 111.705 233.457  1.00  0.00           C  
+HETATM   15  C15 KLZ A   1      88.770 112.730 232.555  1.00  0.00           C  
+HETATM   16  H1  KLZ A   1      92.671 114.497 223.673  1.00  0.00           H  
+HETATM   17  H2  KLZ A   1      92.395 114.716 225.365  1.00  0.00           H  
+HETATM   18  H3  KLZ A   1      91.315 113.980 224.146  1.00  0.00           H  
+HETATM   19  H4  KLZ A   1      93.650 112.668 225.389  1.00  0.00           H  
+HETATM   20  H5  KLZ A   1      93.363 112.368 223.653  1.00  0.00           H  
+HETATM   21  H6  KLZ A   1      91.198 111.333 224.222  1.00  0.00           H  
+HETATM   22  H7  KLZ A   1      91.328 111.763 225.852  1.00  0.00           H  
+HETATM   23  H8  KLZ A   1      93.445 110.194 226.010  1.00  0.00           H  
+HETATM   24  H9  KLZ A   1      93.246 109.891 224.315  1.00  0.00           H  
+HETATM   25  H10 KLZ A   1      91.263 109.209 226.517  1.00  0.00           H  
+HETATM   26  H11 KLZ A   1      90.830 109.056 224.788  1.00  0.00           H  
+HETATM   27  H12 KLZ A   1      91.610 106.906 225.459  1.00  0.00           H  
+HETATM   28  H13 KLZ A   1      92.988 107.673 224.597  1.00  0.00           H  
+HETATM   29  H14 KLZ A   1      94.016 108.345 226.549  1.00  0.00           H  
+HETATM   30  H15 KLZ A   1      93.953 106.645 226.389  1.00  0.00           H  
+HETATM   31  H16 KLZ A   1      93.128 106.494 228.560  1.00  0.00           H  
+HETATM   32  H17 KLZ A   1      91.651 107.097 227.867  1.00  0.00           H  
+HETATM   33  H18 KLZ A   1      92.574 109.594 228.295  1.00  0.00           H  
+HETATM   34  H19 KLZ A   1      93.762 108.795 229.343  1.00  0.00           H  
+HETATM   35  H20 KLZ A   1      90.665 108.654 229.525  1.00  0.00           H  
+HETATM   36  H21 KLZ A   1      91.663 107.594 230.510  1.00  0.00           H  
+HETATM   37  H22 KLZ A   1      92.114 110.602 230.469  1.00  0.00           H  
+HETATM   38  H23 KLZ A   1      92.772 109.537 231.615  1.00  0.00           H  
+HETATM   39  H24 KLZ A   1      90.369 109.189 232.495  1.00  0.00           H  
+HETATM   40  H25 KLZ A   1      89.791 110.161 231.234  1.00  0.00           H  
+HETATM   41  H26 KLZ A   1      91.397 112.047 232.489  1.00  0.00           H  
+HETATM   42  H27 KLZ A   1      91.446 110.880 233.577  1.00  0.00           H  
+HETATM   43  H28 KLZ A   1      89.650 112.060 234.458  1.00  0.00           H  
+HETATM   44  H29 KLZ A   1      88.836 110.898 233.619  1.00  0.00           H  
+HETATM   45  H30 KLZ A   1      87.793 112.905 232.923  1.00  0.00           H  
+HETATM   46  H31 KLZ A   1      89.278 113.662 232.693  1.00  0.00           H  
+HETATM   47  H32 KLZ A   1      88.660 112.516 231.517  1.00  0.00           H  
+TER      48      KLZ A   1
+CONECT    1    2   16   17   18
+CONECT    2    1    3   19   20
+CONECT    3    2    4   21   22
+CONECT    4    3    5   23   24
+CONECT    5    4    6   25   26
+CONECT    6    5    7   27   28
+CONECT    7    6    8   29   30
+CONECT    8    7    9   31   32
+CONECT    9    8   10   33   34
+CONECT   10    9   11   35   36
+CONECT   11   10   12   37   38
+CONECT   12   11   13   39   40
+CONECT   13   12   14   41   42
+CONECT   14   13   15   43   44
+CONECT   15   14   45   46   47
+CONECT   16    1
+CONECT   17    1
+CONECT   18    1
+CONECT   19    2
+CONECT   20    2
+CONECT   21    3
+CONECT   22    3
+CONECT   23    4
+CONECT   24    4
+CONECT   25    5
+CONECT   26    5
+CONECT   27    6
+CONECT   28    6
+CONECT   29    7
+CONECT   30    7
+CONECT   31    8
+CONECT   32    8
+CONECT   33    9
+CONECT   34    9
+CONECT   35   10
+CONECT   36   10
+CONECT   37   11
+CONECT   38   11
+CONECT   39   12
+CONECT   40   12
+CONECT   41   13
+CONECT   42   13
+CONECT   43   14
+CONECT   44   14
+CONECT   45   15
+CONECT   46   15
+CONECT   47   15
+END

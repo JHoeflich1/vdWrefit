@@ -1,0 +1,40 @@
+REMARK   1 CREATED WITH OPENMM 8.2, 2025-05-14
+CRYST1   28.496   28.496   28.496  90.00  90.00  90.00 P 1           1 
+HETATM    1  C1  SBA A   1    -224.645 937.413-240.373  1.00  0.00           C  
+HETATM    2  C2  SBA A   1    -223.438 937.939-239.947  1.00  0.00           C  
+HETATM    3  C3  SBA A   1    -222.518 938.787-240.813  1.00  0.00           C  
+HETATM    4  C4  SBA A   1    -220.974 938.450-240.755  1.00  0.00           C  
+HETATM    5  C5  SBA A   1    -220.613 937.082-241.493  1.00  0.00           C  
+HETATM    6  C6  SBA A   1    -219.275 936.433-241.019  1.00  0.00           C  
+HETATM    7  H1  SBA A   1    -225.084 936.843-239.515  1.00  0.00           H  
+HETATM    8  H2  SBA A   1    -225.093 937.553-241.416  1.00  0.00           H  
+HETATM    9  H3  SBA A   1    -223.109 937.751-238.916  1.00  0.00           H  
+HETATM   10  H4  SBA A   1    -222.702 939.782-240.512  1.00  0.00           H  
+HETATM   11  H5  SBA A   1    -222.937 938.712-241.833  1.00  0.00           H  
+HETATM   12  H6  SBA A   1    -220.719 938.353-239.692  1.00  0.00           H  
+HETATM   13  H7  SBA A   1    -220.348 939.289-241.042  1.00  0.00           H  
+HETATM   14  H8  SBA A   1    -221.438 936.315-241.332  1.00  0.00           H  
+HETATM   15  H9  SBA A   1    -220.540 937.337-242.539  1.00  0.00           H  
+HETATM   16  H10 SBA A   1    -218.494 937.221-241.068  1.00  0.00           H  
+HETATM   17  H11 SBA A   1    -219.028 935.531-241.616  1.00  0.00           H  
+HETATM   18  H12 SBA A   1    -219.369 936.161-239.984  1.00  0.00           H  
+TER      19      SBA A   1
+CONECT    1    2    7    8
+CONECT    2    1    3    9
+CONECT    3    2    4   10   11
+CONECT    4    3    5   12   13
+CONECT    5    4    6   14   15
+CONECT    6    5   16   17   18
+CONECT    7    1
+CONECT    8    1
+CONECT    9    2
+CONECT   10    3
+CONECT   11    3
+CONECT   12    4
+CONECT   13    4
+CONECT   14    5
+CONECT   15    5
+CONECT   16    6
+CONECT   17    6
+CONECT   18    6
+END

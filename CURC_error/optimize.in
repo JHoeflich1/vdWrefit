@@ -51,7 +51,7 @@ constrain_charge false
 
 priors
    vdW/Atom/epsilon                     : 1.0 # 0.1
-   vdW/Atom/rmin_half                   : 10.0 # 1.0 Increase priors 
+   vdW/Atom/rmin_half                   : 10.0 # 1.0
 /priors      
 
 $end
@@ -62,3 +62,4 @@ type Evaluator_SMIRNOFF
 weight 1.0
 evaluator_input options.json
 $end
+

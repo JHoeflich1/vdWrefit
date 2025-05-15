@@ -1,0 +1,15 @@
+Traceback (most recent call last):
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator/bin/ForceBalance.py", line 41, in Run_ForceBalance
+    objective   = Objective(options, tgt_opts, forcefield)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator/lib/python3.11/site-packages/forcebalance/objective.py", line 182, in __init__
+    else: Tgt = Implemented_Targets[opts['type']](options,opts,forcefield)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator/lib/python3.11/site-packages/forcebalance/evaluator_io.py", line 206, in __init__
+    self._initialize()
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator/lib/python3.11/site-packages/forcebalance/evaluator_io.py", line 230, in _initialize
+    data_set_path = os.path.join(self.tgtdir, self._options.data_set_path)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen posixpath>", line 90, in join
+  File "<frozen genericpath>", line 152, in _check_arg_types
+TypeError: join() argument must be str, bytes, or os.PathLike object, not 'PhysicalPropertyDataSet'

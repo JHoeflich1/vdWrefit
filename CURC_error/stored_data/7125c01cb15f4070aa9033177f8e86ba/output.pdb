@@ -1,0 +1,104 @@
+REMARK   1 CREATED WITH OPENMM 8.2, 2025-05-14
+CRYST1   38.852   38.852   38.852  90.00  90.00  90.00 P 1           1 
+HETATM    1  C1  MEE A   1     174.652-636.963 429.373  1.00  0.00           C  
+HETATM    2  C2  MEE A   1     174.095-635.437 429.682  1.00  0.00           C  
+HETATM    3  C3  MEE A   1     172.549-635.201 429.725  1.00  0.00           C  
+HETATM    4  C4  MEE A   1     171.928-635.897 430.988  1.00  0.00           C  
+HETATM    5  C5  MEE A   1     170.408-635.543 431.219  1.00  0.00           C  
+HETATM    6  C6  MEE A   1     169.495-635.874 430.028  1.00  0.00           C  
+HETATM    7  C7  MEE A   1     167.995-635.486 430.235  1.00  0.00           C  
+HETATM    8  C8  MEE A   1     167.558-634.134 429.632  1.00  0.00           C  
+HETATM    9  C9  MEE A   1     166.229-633.610 430.127  1.00  0.00           C  
+HETATM   10  C10 MEE A   1     165.849-632.242 429.554  1.00  0.00           C  
+HETATM   11  C11 MEE A   1     164.490-631.817 430.020  1.00  0.00           C  
+HETATM   12  C12 MEE A   1     164.525-630.849 431.252  1.00  0.00           C  
+HETATM   13  C13 MEE A   1     163.138-630.281 431.320  1.00  0.00           C  
+HETATM   14  C14 MEE A   1     163.090-629.422 432.546  1.00  0.00           C  
+HETATM   15  C15 MEE A   1     161.591-628.915 432.815  1.00  0.00           C  
+HETATM   16  C16 MEE A   1     161.646-627.969 434.034  1.00  0.00           C  
+HETATM   17  H1  MEE A   1     174.219-637.636 430.075  1.00  0.00           H  
+HETATM   18  H2  MEE A   1     175.715-637.113 429.389  1.00  0.00           H  
+HETATM   19  H3  MEE A   1     174.271-637.282 428.382  1.00  0.00           H  
+HETATM   20  H4  MEE A   1     174.511-635.077 430.606  1.00  0.00           H  
+HETATM   21  H5  MEE A   1     174.457-634.726 428.885  1.00  0.00           H  
+HETATM   22  H6  MEE A   1     172.251-634.150 429.735  1.00  0.00           H  
+HETATM   23  H7  MEE A   1     172.122-635.603 428.908  1.00  0.00           H  
+HETATM   24  H8  MEE A   1     172.471-635.600 431.832  1.00  0.00           H  
+HETATM   25  H9  MEE A   1     172.056-636.961 430.852  1.00  0.00           H  
+HETATM   26  H10 MEE A   1     170.343-634.532 431.641  1.00  0.00           H  
+HETATM   27  H11 MEE A   1     170.020-636.048 432.001  1.00  0.00           H  
+HETATM   28  H12 MEE A   1     169.868-635.272 429.152  1.00  0.00           H  
+HETATM   29  H13 MEE A   1     169.713-636.912 429.818  1.00  0.00           H  
+HETATM   30  H14 MEE A   1     167.397-636.292 429.730  1.00  0.00           H  
+HETATM   31  H15 MEE A   1     167.779-635.497 431.264  1.00  0.00           H  
+HETATM   32  H16 MEE A   1     168.292-633.328 429.839  1.00  0.00           H  
+HETATM   33  H17 MEE A   1     167.504-634.360 428.556  1.00  0.00           H  
+HETATM   34  H18 MEE A   1     165.507-634.358 429.918  1.00  0.00           H  
+HETATM   35  H19 MEE A   1     166.280-633.577 431.290  1.00  0.00           H  
+HETATM   36  H20 MEE A   1     166.642-631.541 429.851  1.00  0.00           H  
+HETATM   37  H21 MEE A   1     165.805-632.351 428.458  1.00  0.00           H  
+HETATM   38  H22 MEE A   1     163.941-631.457 429.155  1.00  0.00           H  
+HETATM   39  H23 MEE A   1     163.847-632.715 430.256  1.00  0.00           H  
+HETATM   40  H24 MEE A   1     164.765-631.300 432.258  1.00  0.00           H  
+HETATM   41  H25 MEE A   1     165.262-630.030 431.135  1.00  0.00           H  
+HETATM   42  H26 MEE A   1     163.009-629.740 430.361  1.00  0.00           H  
+HETATM   43  H27 MEE A   1     162.357-631.044 431.223  1.00  0.00           H  
+HETATM   44  H28 MEE A   1     163.787-628.572 432.471  1.00  0.00           H  
+HETATM   45  H29 MEE A   1     163.338-630.034 433.391  1.00  0.00           H  
+HETATM   46  H30 MEE A   1     161.264-628.440 431.878  1.00  0.00           H  
+HETATM   47  H31 MEE A   1     160.944-629.718 433.021  1.00  0.00           H  
+HETATM   48  H32 MEE A   1     162.297-628.362 434.826  1.00  0.00           H  
+HETATM   49  H33 MEE A   1     160.711-627.829 434.544  1.00  0.00           H  
+HETATM   50  H34 MEE A   1     162.159-626.984 433.811  1.00  0.00           H  
+TER      51      MEE A   1
+CONECT    1    2   17   18   19
+CONECT    2    1    3   20   21
+CONECT    3    2    4   22   23
+CONECT    4    3    5   24   25
+CONECT    5    4    6   26   27
+CONECT    6    5    7   28   29
+CONECT    7    6    8   30   31
+CONECT    8    7    9   32   33
+CONECT    9    8   10   34   35
+CONECT   10    9   11   36   37
+CONECT   11   10   12   38   39
+CONECT   12   11   13   40   41
+CONECT   13   12   14   42   43
+CONECT   14   13   15   44   45
+CONECT   15   14   16   46   47
+CONECT   16   15   48   49   50
+CONECT   17    1
+CONECT   18    1
+CONECT   19    1
+CONECT   20    2
+CONECT   21    2
+CONECT   22    3
+CONECT   23    3
+CONECT   24    4
+CONECT   25    4
+CONECT   26    5
+CONECT   27    5
+CONECT   28    6
+CONECT   29    6
+CONECT   30    7
+CONECT   31    7
+CONECT   32    8
+CONECT   33    8
+CONECT   34    9
+CONECT   35    9
+CONECT   36   10
+CONECT   37   10
+CONECT   38   11
+CONECT   39   11
+CONECT   40   12
+CONECT   41   12
+CONECT   42   13
+CONECT   43   13
+CONECT   44   14
+CONECT   45   14
+CONECT   46   15
+CONECT   47   15
+CONECT   48   16
+CONECT   49   16
+CONECT   50   16
+END

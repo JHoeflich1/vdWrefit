@@ -1,0 +1,44 @@
+REMARK   1 CREATED WITH OPENMM 8.2, 2025-05-14
+CRYST1   28.706   28.706   28.706  90.00  90.00  90.00 P 1           1 
+HETATM    1  C1  SNQ A   1     610.699-419.485 811.024  1.00  0.00           C  
+HETATM    2  C2  SNQ A   1     611.169-420.692 810.196  1.00  0.00           C  
+HETATM    3  C3  SNQ A   1     612.627-420.914 810.568  1.00  0.00           C  
+HETATM    4  C4  SNQ A   1     612.925-421.638 811.923  1.00  0.00           C  
+HETATM    5  C5  SNQ A   1     612.766-423.067 811.700  1.00  0.00           C  
+HETATM    6  C6  SNQ A   1     613.094-423.841 812.992  1.00  0.00           C  
+HETATM    7  H1  SNQ A   1     609.736-419.266 810.719  1.00  0.00           H  
+HETATM    8  H2  SNQ A   1     610.761-419.665 812.095  1.00  0.00           H  
+HETATM    9  H3  SNQ A   1     611.268-418.600 810.843  1.00  0.00           H  
+HETATM   10  H4  SNQ A   1     610.535-421.495 810.432  1.00  0.00           H  
+HETATM   11  H5  SNQ A   1     611.089-420.380 809.164  1.00  0.00           H  
+HETATM   12  H6  SNQ A   1     613.176-419.932 810.487  1.00  0.00           H  
+HETATM   13  H7  SNQ A   1     613.195-421.428 809.770  1.00  0.00           H  
+HETATM   14  H8  SNQ A   1     614.034-421.452 812.052  1.00  0.00           H  
+HETATM   15  H9  SNQ A   1     612.378-421.294 812.782  1.00  0.00           H  
+HETATM   16  H10 SNQ A   1     613.439-423.560 810.983  1.00  0.00           H  
+HETATM   17  H11 SNQ A   1     611.684-423.278 811.475  1.00  0.00           H  
+HETATM   18  H12 SNQ A   1     612.370-423.476 813.743  1.00  0.00           H  
+HETATM   19  H13 SNQ A   1     614.146-423.738 813.275  1.00  0.00           H  
+HETATM   20  H14 SNQ A   1     613.010-424.933 812.855  1.00  0.00           H  
+TER      21      SNQ A   1
+CONECT    1    2    7    8    9
+CONECT    2    1    3   10   11
+CONECT    3    2    4   12   13
+CONECT    4    3    5   14   15
+CONECT    5    4    6   16   17
+CONECT    6    5   18   19   20
+CONECT    7    1
+CONECT    8    1
+CONECT    9    1
+CONECT   10    2
+CONECT   11    2
+CONECT   12    3
+CONECT   13    3
+CONECT   14    4
+CONECT   15    4
+CONECT   16    5
+CONECT   17    5
+CONECT   18    6
+CONECT   19    6
+CONECT   20    6
+END

@@ -1,0 +1,356 @@
+OE_LICENSE is set to: /projects/juho8819/oe_license.txt
+Checking CUDA devices...
+Wed May 14 14:38:49 2025       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 550.90.07              Driver Version: 550.90.07      CUDA Version: 12.4     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA A40                     On  |   00000000:17:00.0 Off |                    0 |
+|  0%   27C    P8             21W /  300W |       1MiB /  46068MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+                                                                                         
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI        PID   Type   Process name                              GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+#======================================================================#
+#| [1m            Welcome to ForceBalance version 1.9.6! =D             [0m |#
+#| [1m                 Force Field Optimization System                  [0m |#
+#| [1m                                                                  [0m |#
+#| [1m                             Authors:                             [0m |#
+#| [1m                          Lee-Ping Wang                           [0m |#
+#| [1m                  Yudong Qiu, Keri A. McKiernan                   [0m |#
+#| [1m          Jeffrey R. Wagner, Hyesu Jang, Simon Boothroyd          [0m |#
+#| [1m          Arthur Vigil, Erik G. Brandt, John Stoppelman           [0m |#
+#| [1m                  Johnny Israeli, Matt Thompson                   [0m |#
+#======================================================================#
+
+                          [44m     [0m                                        
+                       [44m        [0m      [43m     [0m                              
+                    [44m        [0m   [44m  [0m    [43m         [0m                          
+                 [44m       [0m    [44m      [0m      [43m         [0m                       
+             [44m        [0m    [44m        [0m          [43m         [0m                    
+          [44m        [0m    [44m        [0m                 [43m        [0m                 
+       [44m        [0m    [44m       [0m                        [43m        [0m              
+    [44m        [0m   [44m        [0m                              [43m         [0m          
+   [44m      [0m   [44m        [0m               `.:+@@###@'          [43m         [0m       
+    [44m [0m    [44m        [0m          ,;'+###############.             [43m     [0m       
+      [44m        [0m         +################':`                    [43m [0m        
+      [44m     [0m              `.,,...####+.                                  
+                                ,#####      +##.               [44m   [0m   [44m   [0m
+ [43m    [0m                            #####      ######             [44m   [0m   [44m   [0m
+ [43m    [0m                ###'        ####'     :#####'             [44m   [0m   [44m   [0m
+ [43m    [0m                :####@      ####.    ,####'               [44m   [0m   [44m   [0m
+ [43m    [0m                 ######     ####    +###+                 [44m   [0m   [44m   [0m
+ [43m    [0m                  #####     ####   ###;                   [44m   [0m   [44m   [0m
+ [43m    [0m                   :##      ####  ++`                     [44m   [0m   [44m   [0m
+ [43m    [0m                            ####``..:;+##############+`   [44m   [0m   [44m   [0m
+ [43m    [0m             .,:;;'++##################################`  [44m   [0m   [44m   [0m
+ [43m    [0m    `############################++++''';;;;;;;;;;;'';    [44m   [0m   [44m   [0m
+ [43m    [0m      ,########':,.``       ####                          [44m   [0m   [44m   [0m
+ [43m    [0m                            ####                          [44m   [0m   [44m   [0m
+ [43m    [0m                            ####                          [44m   [0m   [44m   [0m
+ [43m    [0m                            ####                          [44m   [0m   [44m   [0m
+ [43m    [0m                            ####                          [44m   [0m   [44m   [0m
+ [43m    [0m                            ####                          [44m   [0m   [44m   [0m
+ [43m    [0m                            ####                          [44m   [0m   [44m   [0m
+ [43m    [0m                            ####                          [44m   [0m   [44m   [0m
+      [44m    [0m                       ####                                   
+     [44m        [0m                    ####                                   
+    [44m [0m    [44m       [0m                 ####                       [43m     [0m       
+   [44m     [0m    [44m        [0m             ####                    [43m        [0m       
+   [44m        [0m    [44m        [0m          ###                  [43m         [0m         
+      [44m        [0m    [44m        [0m        +`               [43m        [0m             
+          [44m        [0m   [44m        [0m                   [43m        [0m                
+             [44m        [0m   [44m         [0m           [43m         [0m                   
+                [44m        [0m    [44m       [0m      [43m         [0m                      
+                   [44m        [0m    [44m   [0m    [43m        [0m                          
+                      [44m        [0m       [43m      [0m                             
+                          [44m      [0m      [43m  [0m                                
+                             [44m  [0m                                         
+
+Reading options from file: optimize.in
+#========================================================#
+#| [95m  Options at their default values are not printed   [0m |#
+#| [95m        Use 'verbose_options True' to Enable        [0m |#
+#========================================================#
+Reading force field from file: force_field_tagged.offxml
+#=========================================================#
+#| [92m Starting parameter indices, physical values and IDs [0m |#
+#=========================================================#
+   0 [  1.5779e-02 ] : vdW/Atom/epsilon/[#1:1]-[#6X4]
+   1 [  1.4842e+00 ] : vdW/Atom/rmin_half/[#1:1]-[#6X4]
+   2 [  1.5611e-02 ] : vdW/Atom/epsilon/[#1:1]-[#6X3]
+   3 [  1.4438e+00 ] : vdW/Atom/rmin_half/[#1:1]-[#6X3]
+   4 [  8.6879e-02 ] : vdW/Atom/epsilon/[#6:1]
+   5 [  1.9534e+00 ] : vdW/Atom/rmin_half/[#6:1]
+   6 [  1.0884e-01 ] : vdW/Atom/epsilon/[#6X4:1]
+   7 [  1.8967e+00 ] : vdW/Atom/rmin_half/[#6X4:1]
+-----------------------------------------------------------
+#=========================================================#
+#| [91m Rescaling Factors by Type (Lower Takes Precedence): [0m |#
+#=========================================================#
+   vdW/Atom/epsilon                     : 1.00000e+00
+   vdW/Atom/rmin_half                   : 1.00000e+01
+-----------------------------------------------------------
+#========================================================#
+#| [91m   Rescaling Types / Factors by Parameter Number:   [0m |#
+#========================================================#
+   0 [    vdW/Atom/epsilon              : 1.00000e+00 ] : vdW/Atom/epsilon/[#1:1]-[#6X4]
+   1 [    vdW/Atom/rmin_half            : 1.00000e+01 ] : vdW/Atom/rmin_half/[#1:1]-[#6X4]
+   2 [    vdW/Atom/epsilon              : 1.00000e+00 ] : vdW/Atom/epsilon/[#1:1]-[#6X3]
+   3 [    vdW/Atom/rmin_half            : 1.00000e+01 ] : vdW/Atom/rmin_half/[#1:1]-[#6X3]
+   4 [    vdW/Atom/epsilon              : 1.00000e+00 ] : vdW/Atom/epsilon/[#6:1]
+   5 [    vdW/Atom/rmin_half            : 1.00000e+01 ] : vdW/Atom/rmin_half/[#6:1]
+   6 [    vdW/Atom/epsilon              : 1.00000e+00 ] : vdW/Atom/epsilon/[#6X4:1]
+   7 [    vdW/Atom/rmin_half            : 1.00000e+01 ] : vdW/Atom/rmin_half/[#6X4:1]
+----------------------------------------------------------
+#========================================================#
+#| [92m               Setup for force field                [0m |#
+#========================================================#
+fnms                      ['force_field_tagged.offxml'] 
+priors                    OrderedDict([('vdW/Atom/epsilon', 1.0), ('vdW/Atom/rmin_half', 10.0)]) 
+----------------------------------------------------------
+Backing up: optimize.tmp/pure_data to: optimize.bak/pure_data_2.tar.bz2
+targets/pure_data/options.json
+#========================================================#
+#| [92m             Loaded experimental data.              [0m |#
+#========================================================#
+#========================================================#
+#| [92m      Reference C=CCCCC{solv}{x=1.000000} data      [0m |#
+#========================================================#
+Density 298.15 kelvin-101.325 kilopascal 668.4499999999999 kilogram / meter ** 3+/-0.0 kilogram / meter ** 3 
+EnthalpyOfVaporization 298.15 kelvin-101.325 kilopascal 30.6 kilojoule / mole+/-0.0 kilojoule / mole 
+----------------------------------------------------------
+#========================================================#
+#| [92m     Reference CCCCCCCC{solv}{x=1.000000} data      [0m |#
+#========================================================#
+EnthalpyOfVaporization 298.15 kelvin-101.325 kilopascal 41.6 kilojoule / mole+/-0.0 kilojoule / mole 
+----------------------------------------------------------
+#========================================================#
+#| [92m     Reference C=CCCCCC{solv}{x=1.000000} data      [0m |#
+#========================================================#
+EnthalpyOfVaporization 298.15 kelvin-101.325 kilopascal 40.65 kilojoule / mole+/-0.3 kilojoule / mole 
+----------------------------------------------------------
+#========================================================#
+#| [92m Reference C=CCCCCCCCCCCCCCC{solv}{x=1.000000} data [0m |#
+#========================================================#
+Density 298.15 kelvin-101.325 kilopascal 789.0 kilogram / meter ** 3+/-0.0 kilogram / meter ** 3 
+----------------------------------------------------------
+#========================================================#
+#| [92m      Reference CCCCCC{solv}{x=1.000000} data       [0m |#
+#========================================================#
+Density 298.15 kelvin-101.325 kilopascal 655.4999999999999 kilogram / meter ** 3+/-0.29999999999999993 kilogram / meter ** 3 
+EnthalpyOfVaporization 298.15 kelvin-101.325 kilopascal 31.52 kilojoule / mole+/-0.028 kilojoule / mole 
+----------------------------------------------------------
+#========================================================#
+#| [92m    Reference CCCCCCCCCC{solv}{x=1.000000} data     [0m |#
+#========================================================#
+EnthalpyOfVaporization 298.15 kelvin-101.325 kilopascal 51.4 kilojoule / mole+/-0.0 kilojoule / mole 
+----------------------------------------------------------
+#========================================================#
+#| [92m   Reference CCCCCCCCCCCC{solv}{x=1.000000} data    [0m |#
+#========================================================#
+Density 298.15 kelvin-101.325 kilopascal 745.3999999999999 kilogram / meter ** 3+/-0.16999999999999998 kilogram / meter ** 3 
+EnthalpyOfVaporization 298.15 kelvin-101.325 kilopascal 61.3 kilojoule / mole+/-0.3 kilojoule / mole 
+----------------------------------------------------------
+#========================================================#
+#| [92m  Reference CCCCCCCCCCCCCCC{solv}{x=1.000000} data  [0m |#
+#========================================================#
+Density 298.15 kelvin-101.325 kilopascal 764.9999999999999 kilogram / meter ** 3+/-0.16999999999999998 kilogram / meter ** 3 
+EnthalpyOfVaporization 298.15 kelvin-101.325 kilopascal 76.4 kilojoule / mole+/-0.3 kilojoule / mole 
+----------------------------------------------------------
+#========================================================#
+#| [92m Reference CCCCCCCCCCCCCCCC{solv}{x=1.000000} data  [0m |#
+#========================================================#
+Density 298.15 kelvin-101.325 kilopascal 769.9999999999999 kilogram / meter ** 3+/-0.36 kilogram / meter ** 3 
+EnthalpyOfVaporization 298.15 kelvin-101.325 kilopascal 81.4 kilojoule / mole+/-0.3 kilojoule / mole 
+----------------------------------------------------------
+#========================================================#
+#| [92m            Setup for target pure_data :            [0m |#
+#========================================================#
+name                      pure_data 
+type                      EVALUATOR_SMIRNOFF 
+tgtdir                    targets/pure_data 
+evaluator_input           options.json 
+----------------------------------------------------------
+#========================================================#
+#| [92m        SMIRNOFF Parameter Coverage Analysis        [0m |#
+#========================================================#
+Force field assignment data written to /gpfs/alpine1/scratch/juho8819/vdWFit/test_alkanes/blanca_run/smirnoff_parameter_assignments.json
+ idx Parameter                                                                                                   Count
+----------------------------------------------------------------------------------------------------------------------
+   0 vdW/Atom/epsilon/[#1:1]-[#6X4]                                                                       :          0
+   1 vdW/Atom/rmin_half/[#1:1]-[#6X4]                                                                     :          0
+   2 vdW/Atom/epsilon/[#1:1]-[#6X3]                                                                       :          0
+   3 vdW/Atom/rmin_half/[#1:1]-[#6X3]                                                                     :          0
+   4 vdW/Atom/epsilon/[#6:1]                                                                              :          0
+   5 vdW/Atom/rmin_half/[#6:1]                                                                            :          0
+   6 vdW/Atom/epsilon/[#6X4:1]                                                                            :          0
+   7 vdW/Atom/rmin_half/[#6X4:1]                                                                          :          0
+SMIRNOFF Parameter Coverage Analysis result: 0/8 parameters are covered.
+----------------------------------------------------------------------------------------------------------------------
+Using parabolic regularization (Gaussian prior) with strength 1.0e+00 (+), 0.0e+00 (x)
+#========================================================#
+#| [92m           Setup for objective function :           [0m |#
+#========================================================#
+penalty_additive          1.0 
+normalize_weights         False 
+----------------------------------------------------------
+#========================================================#
+#| [92m                Setup for optimizer                 [0m |#
+#========================================================#
+jobtype                   OPTIMIZE 
+trust0                    0.25 
+mintrust                  0.05 
+eps                       0.01 
+convergence_objective     0.1 
+convergence_step          0.1 
+convergence_gradient      0.1 
+maxstep                   4 
+adapt_fac                 0.2 
+adapt_damp                1.0 
+print_hess                True 
+err_tol                   1.0 
+input_file                optimize.in 
+----------------------------------------------------------
+Calculation started at 2025-05-14 02:39 PM
+#========================================================#
+#| [1m                  Main Optimizer                    [0m |#
+#| [1m   Newton-Raphson Method (Adaptive Trust Radius)    [0m |#
+#| [1m                                                    [0m |#
+#| [1m       [0mConvergence criteria (1 of 3 needed):        [0m |#
+#| [1m          [0mObjective Function  : 1.000e-01           [0m |#
+#| [1m          [0mNorm of Gradient    : 1.000e-01           [0m |#
+#| [1m          [0mParameter step size : 1.000e-01           [0m |#
+#========================================================#
+#========================================================#
+#|       Color Key for Objective Function -=X2=-        |#
+#|  [1mBold[0m = Initial step                                 |#
+#|  [92mGreen = Current lowest value of objective function[0m  |#
+#|  [91mRed = Objective function rises, step rejected[0m       |#
+#|  [0mNo color = Not at the lowest value                  |#
+#========================================================#
+#========================================================#
+#| [94m     Iteration 0: Evaluating objective function     [0m |#
+#| [94m        and derivatives through second order        [0m |#
+#========================================================#
+Requesting the estimation of 14 properties, and their gradients with respect to 8 parameters.
+
+14 properties were estimated using the SimulationLayer layer.
+
+
+#=============================================================================================================#
+#| [1;94m                                            pure_data Density                                            [0m |#
+#| [1;94m Temperature  Pressure Substance  Reference  Calculated +- Stdev     Delta    Weight    Denom     Term   [0m |#
+#=============================================================================================================#
+  298.15 kelvin 1.0 standard_atmosphere C=CCCCCCCCCCCCCCC{solv}{x=1.000000}   789.000        775.530 +- 0.178   -13.470   0.16667  30.00000   0.03360  
+  298.15 kelvin 1.0 standard_atmosphere C=CCCCC{solv}{x=1.000000}   668.450        644.537 +- 0.250   -23.913   0.16667  30.00000   0.10589  
+  298.15 kelvin 1.0 standard_atmosphere CCCCCCCCCCCCCCCC{solv}{x=1.000000}   770.000        778.477 +- 0.315     8.477   0.16667  30.00000   0.01331  
+  298.15 kelvin 1.0 standard_atmosphere CCCCCCCCCCCCCCC{solv}{x=1.000000}   765.000        767.723 +- 0.223     2.723   0.16667  30.00000   0.00137  
+  298.15 kelvin 1.0 standard_atmosphere CCCCCCCCCCCC{solv}{x=1.000000}   745.400        740.021 +- 0.142    -5.379   0.16667  30.00000   0.00536  
+  298.15 kelvin 1.0 standard_atmosphere CCCCCC{solv}{x=1.000000}   655.500        641.905 +- 0.226   -13.595   0.16667  30.00000   0.03423  
+---------------------------------------------------------------------------------------------------------------
+
+#=============================================================================================================#
+#| [1;94m                                    pure_data EnthalpyOfVaporization                                     [0m |#
+#| [1;94m Temperature  Pressure Substance  Reference  Calculated +- Stdev     Delta    Weight    Denom     Term   [0m |#
+#=============================================================================================================#
+  298.15 kelvin 1.0 standard_atmosphere C=CCCCCC{solv}{x=1.000000}    40.650         36.446 +- 0.368    -4.204   0.12500   3.00000   0.24549  
+  298.15 kelvin 1.0 standard_atmosphere C=CCCCC{solv}{x=1.000000}    30.600         30.086 +- 0.333    -0.514   0.12500   3.00000   0.00367  
+  298.15 kelvin 1.0 standard_atmosphere CCCCCCCCCCCCCCCC{solv}{x=1.000000}    81.400         95.662 +- 0.559    14.262   0.12500   3.00000   2.82490  
+  298.15 kelvin 1.0 standard_atmosphere CCCCCCCCCCCCCCC{solv}{x=1.000000}    76.400         89.254 +- 0.569    12.854   0.12500   3.00000   2.29495  
+  298.15 kelvin 1.0 standard_atmosphere CCCCCCCCCCCC{solv}{x=1.000000}    61.300         67.625 +- 0.527     6.325   0.12500   3.00000   0.55560  
+  298.15 kelvin 1.0 standard_atmosphere CCCCCCCCCC{solv}{x=1.000000}    51.400         56.224 +- 0.474     4.824   0.12500   3.00000   0.32325  
+  298.15 kelvin 1.0 standard_atmosphere CCCCCCCC{solv}{x=1.000000}    41.600         44.672 +- 0.283     3.072   0.12500   3.00000   0.13103  
+  298.15 kelvin 1.0 standard_atmosphere CCCCCC{solv}{x=1.000000}    31.520         33.300 +- 0.336     1.780   0.12500   3.00000   0.04399  
+---------------------------------------------------------------------------------------------------------------
+#====================================================================#
+#| [94m                  Objective Function Breakdown                  [0m |#
+#| [94m  Target Name              Residual  x  Weight  =  Contribution [0m |#
+#====================================================================#
+pure_data                      6.61664      1.000 [94m     6.61664e+00[0m 
+Regularization                 0.00000      1.000 [94m     0.00000e+00[0m 
+Total                                             [94m     6.61664e+00[0m 
+----------------------------------------------------------------------
+
+  Step       |k|        |dk|       |grad|       -=X2=-     Delta(X2)    StepQual
+     0   0.000e+00   0.000e+00   2.950e+03[1m   6.61664e+00[0m   0.000e+00      0.000
+
+#========================================================#
+#| [94m                   Total Gradient                   [0m |#
+#========================================================#
+   0 [  1.89334962e+03 ] : vdW/Atom/epsilon/[#1:1]-[#6X4]
+   1 [ -1.07384796e+03 ] : vdW/Atom/rmin_half/[#1:1]-[#6X4]
+   2 [ -3.37854884e+01 ] : vdW/Atom/epsilon/[#1:1]-[#6X3]
+   3 [  3.40983700e+01 ] : vdW/Atom/rmin_half/[#1:1]-[#6X3]
+   4 [ -2.63717683e+01 ] : vdW/Atom/epsilon/[#6:1]
+   5 [ -6.94989523e+00 ] : vdW/Atom/rmin_half/[#6:1]
+   6 [  8.23296388e+02 ] : vdW/Atom/epsilon/[#6X4:1]
+   7 [  1.81230821e+03 ] : vdW/Atom/rmin_half/[#6X4:1]
+----------------------------------------------------------
+#========================================================#
+#| [94m                   Total Hessian                    [0m |#
+#========================================================#
+ 4.92959461e+05 -1.86626908e+05  8.65918911e+03 -6.55700929e+03  6.31112114e+03  3.25809195e+03  1.94615574e+05  4.50843872e+05 
+-1.86626908e+05  2.56093402e+05 -4.16583252e+03  4.17140308e+03 -3.28003410e+03 -1.46480131e+03 -1.07644558e+05 -1.98422551e+05 
+ 8.65918911e+03 -4.16583252e+03  2.51492658e+03 -1.74729800e+03  1.79184516e+03  1.06074593e+03  3.51039466e+03  7.50129421e+03 
+-6.55700929e+03  4.17140308e+03 -1.74729800e+03  1.65581313e+03 -1.34031501e+03 -5.02632917e+02 -2.85876055e+03 -5.96497252e+03 
+ 6.31112114e+03 -3.28003410e+03  1.79184516e+03 -1.34031501e+03  1.30067925e+03  7.11374012e+02  2.60801846e+03  5.54578252e+03 
+ 3.25809195e+03 -1.46480131e+03  1.06074593e+03 -5.02632917e+02  7.11374012e+02  6.59439690e+02  1.30453445e+03  2.86247114e+03 
+ 1.94615574e+05 -1.07644558e+05  3.51039466e+03 -2.85876055e+03  2.60801846e+03  1.30453445e+03  8.31240909e+04  1.83426352e+05 
+ 4.50843872e+05 -1.98422551e+05  7.50129421e+03 -5.96497252e+03  5.54578252e+03  2.86247114e+03  1.83426352e+05  4.19276791e+05 
+----------------------------------------------------------
+Calculating nonlinear optimization step
+Finding trust radius: H+0.0000*I, length 3.2893e-01 (target 2.5000e-01)
+Finding trust radius: H+9.0000*I, length 2.1298e-01 (target 2.5000e-01)
+Finding trust radius: H+61.6869*I, length 8.3769e-02 (target 2.5000e-01)
+Finding trust radius: H+23.5623*I, length 1.4640e-01 (target 2.5000e-01)
+Finding trust radius: H+3.4377*I, length 2.6212e-01 (target 2.5000e-01)
+Finding trust radius: H+4.0994*I, length 2.5467e-01 (target 2.5000e-01)
+Finding trust radius: H+4.5709*I, length 2.4973e-01 (target 2.5000e-01)
+Finding trust radius: H+4.5436*I, length 2.5001e-01 (target 2.5000e-01)
+Finding trust radius: H+4.5448*I, length 2.5000e-01 (target 2.5000e-01)
+Finding trust radius: H+4.5448*I, length 2.5000e-01 (target 2.5000e-01)
+Finding trust radius: H+4.5447*I, length 2.5000e-01 (target 2.5000e-01)
+Finding trust radius: H+4.5448*I, length 2.5000e-01 (target 2.5000e-01)
+Trust-radius step found (length 2.5000e-01),  4.5448e+00 added to Hessian diagonal
+#========================================================#
+#| [95m  Mathematical Parameters (Current + Step = Next)   [0m |#
+#========================================================#
+   0 [  0.0000e+00 + 5.0752e-02 =  5.0752e-02 ] : vdW/Atom/epsilon/[#1:1]-[#6X4]
+   1 [  0.0000e+00 - 3.6824e-02 = -3.6824e-02 ] : vdW/Atom/rmin_half/[#1:1]-[#6X4]
+   2 [  0.0000e+00 - 3.4196e-03 = -3.4196e-03 ] : vdW/Atom/epsilon/[#1:1]-[#6X3]
+   3 [  0.0000e+00 - 1.0040e-02 = -1.0040e-02 ] : vdW/Atom/rmin_half/[#1:1]-[#6X3]
+   4 [  0.0000e+00 + 4.9749e-02 =  4.9749e-02 ] : vdW/Atom/epsilon/[#6:1]
+   5 [  0.0000e+00 - 2.5364e-02 = -2.5364e-02 ] : vdW/Atom/rmin_half/[#6:1]
+   6 [  0.0000e+00 - 2.3386e-01 = -2.3386e-01 ] : vdW/Atom/epsilon/[#6X4:1]
+   7 [  0.0000e+00 + 2.5421e-02 =  2.5421e-02 ] : vdW/Atom/rmin_half/[#6X4:1]
+----------------------------------------------------------
+#========================================================#
+#| [95m    Physical Parameters (Current + Step = Next)     [0m |#
+#========================================================#
+   0 [  1.5779e-02 + 5.0752e-02 =  6.6531e-02 ] : vdW/Atom/epsilon/[#1:1]-[#6X4]
+   1 [  1.4842e+00 - 3.6824e-01 =  1.1160e+00 ] : vdW/Atom/rmin_half/[#1:1]-[#6X4]
+   2 [  1.5611e-02 - 3.4196e-03 =  1.2192e-02 ] : vdW/Atom/epsilon/[#1:1]-[#6X3]
+   3 [  1.4438e+00 - 1.0040e-01 =  1.3434e+00 ] : vdW/Atom/rmin_half/[#1:1]-[#6X3]
+   4 [  8.6879e-02 + 4.9749e-02 =  1.3663e-01 ] : vdW/Atom/epsilon/[#6:1]
+   5 [  1.9534e+00 - 2.5364e-01 =  1.6998e+00 ] : vdW/Atom/rmin_half/[#6:1]
+   6 [  1.0884e-01 - 1.0884e-01 =  0.0000e+00 ] : vdW/Atom/epsilon/[#6X4:1]
+   7 [  1.8967e+00 + 2.5421e-01 =  2.1509e+00 ] : vdW/Atom/rmin_half/[#6X4:1]
+----------------------------------------------------------
+Input file with saved parameters: optimize.sav
+#========================================================#
+#| [94m     Iteration 1: Evaluating objective function     [0m |#
+#| [94m        and derivatives through second order        [0m |#
+#========================================================#
+Requesting the estimation of 14 properties, and their gradients with respect to 8 parameters.
+-- Force field done --
+All done

@@ -17,13 +17,16 @@ ml anaconda
 source $HOME/.bashrc
 conda activate test_evaluator
 
+echo $OE_LICENSE
+
 # Check CUDA availability
 echo "Checking CUDA devices..."
 nvidia-smi
 
+
 # Run a test
 echo "Starting Python script..."
-python run_evaluator_test.py
+#python run_evaluator.py
 
 echo "Test job finished."
 

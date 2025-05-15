@@ -1,0 +1,593 @@
+
+Lmod is automatically replacing "miniforge/24.11.3-0" with "anaconda/2023.09".
+
+Run 'mamba init' to be able to run mamba activate/deactivate
+and start a new shell session. Or use conda to activate/deactivate.
+
+Run 'mamba init' to be able to run mamba activate/deactivate
+and start a new shell session. Or use conda to activate/deactivate.
+
+/curc/sw/anaconda3/2023.09/etc/profile.d/conda.sh: line 9: : command not found
+Warning: Cannot perform Hydrogen sampling with GPU-Omega: GPU-Omega disabled.
+Warning: Cannot perform Hydrogen sampling with GPU-Omega: GPU-Omega disabled.
+Warning: Cannot perform Hydrogen sampling with GPU-Omega: GPU-Omega disabled.
+Warning: Cannot perform Hydrogen sampling with GPU-Omega: GPU-Omega disabled.
+/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/uncertainties/core.py:1024: UserWarning: Using UFloat objects with std_dev==0 may give unexpected results.
+  warn("Using UFloat objects with std_dev==0 may give unexpected results.")
+Warning: Cannot perform Hydrogen sampling with GPU-Omega: GPU-Omega disabled.
+Warning: Cannot perform Hydrogen sampling with GPU-Omega: GPU-Omega disabled.
+/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/uncertainties/core.py:1024: UserWarning: Using UFloat objects with std_dev==0 may give unexpected results.
+  warn("Using UFloat objects with std_dev==0 may give unexpected results.")
+/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/uncertainties/core.py:1024: UserWarning: Using UFloat objects with std_dev==0 may give unexpected results.
+  warn("Using UFloat objects with std_dev==0 may give unexpected results.")
+Warning: Cannot perform Hydrogen sampling with GPU-Omega: GPU-Omega disabled.
+Warning: Cannot perform Hydrogen sampling with GPU-Omega: GPU-Omega disabled.
+Warning: Cannot perform Hydrogen sampling with GPU-Omega: GPU-Omega disabled.
+Warning: Cannot perform Hydrogen sampling with GPU-Omega: GPU-Omega disabled.
+Warning: Cannot perform Hydrogen sampling with GPU-Omega: GPU-Omega disabled.
+Warning: Cannot perform Hydrogen sampling with GPU-Omega: GPU-Omega disabled.
+/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/uncertainties/core.py:1024: UserWarning: Using UFloat objects with std_dev==0 may give unexpected results.
+  warn("Using UFloat objects with std_dev==0 may give unexpected results.")
+/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/uncertainties/core.py:1024: UserWarning: Using UFloat objects with std_dev==0 may give unexpected results.
+  warn("Using UFloat objects with std_dev==0 may give unexpected results.")
+Warning: Cannot perform Hydrogen sampling with GPU-Omega: GPU-Omega disabled.
+Warning: Cannot perform Hydrogen sampling with GPU-Omega: GPU-Omega disabled.
+/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/uncertainties/core.py:1024: UserWarning: Using UFloat objects with std_dev==0 may give unexpected results.
+  warn("Using UFloat objects with std_dev==0 may give unexpected results.")
+/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/uncertainties/core.py:1024: UserWarning: Using UFloat objects with std_dev==0 may give unexpected results.
+  warn("Using UFloat objects with std_dev==0 may give unexpected results.")
+Warning: Cannot perform Hydrogen sampling with GPU-Omega: GPU-Omega disabled.
+Warning: Cannot perform Hydrogen sampling with GPU-Omega: GPU-Omega disabled.
+Warning: Cannot perform Hydrogen sampling with GPU-Omega: GPU-Omega disabled.
+Warning: Cannot perform Hydrogen sampling with GPU-Omega: GPU-Omega disabled.
+Warning: Cannot perform Hydrogen sampling with GPU-Omega: GPU-Omega disabled.
+Warning: Cannot perform Hydrogen sampling with GPU-Omega: GPU-Omega disabled.
+/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/uncertainties/core.py:1024: UserWarning: Using UFloat objects with std_dev==0 may give unexpected results.
+  warn("Using UFloat objects with std_dev==0 may give unexpected results.")
+/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/uncertainties/core.py:1024: UserWarning: Using UFloat objects with std_dev==0 may give unexpected results.
+  warn("Using UFloat objects with std_dev==0 may give unexpected results.")
+Warning: Cannot perform Hydrogen sampling with GPU-Omega: GPU-Omega disabled.
+Warning: Cannot perform Hydrogen sampling with GPU-Omega: GPU-Omega disabled.
+Warning: Cannot perform Hydrogen sampling with GPU-Omega: GPU-Omega disabled.
+/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/uncertainties/core.py:1024: UserWarning: Using UFloat objects with std_dev==0 may give unexpected results.
+  warn("Using UFloat objects with std_dev==0 may give unexpected results.")
+/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/uncertainties/core.py:1024: UserWarning: Using UFloat objects with std_dev==0 may give unexpected results.
+  warn("Using UFloat objects with std_dev==0 may give unexpected results.")
+Warning: Cannot perform Hydrogen sampling with GPU-Omega: GPU-Omega disabled.
+Warning: Cannot perform Hydrogen sampling with GPU-Omega: GPU-Omega disabled.
+Warning: Cannot perform Hydrogen sampling with GPU-Omega: GPU-Omega disabled.
+Warning: Cannot perform Hydrogen sampling with GPU-Omega: GPU-Omega disabled.
+Warning: Cannot perform Hydrogen sampling with GPU-Omega: GPU-Omega disabled.
+/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/uncertainties/core.py:1024: UserWarning: Using UFloat objects with std_dev==0 may give unexpected results.
+  warn("Using UFloat objects with std_dev==0 may give unexpected results.")
+/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/uncertainties/core.py:1024: UserWarning: Using UFloat objects with std_dev==0 may give unexpected results.
+  warn("Using UFloat objects with std_dev==0 may give unexpected results.")
+Warning: Cannot perform Hydrogen sampling with GPU-Omega: GPU-Omega disabled.
+Warning: Cannot perform Hydrogen sampling with GPU-Omega: GPU-Omega disabled.
+/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/uncertainties/core.py:1024: UserWarning: Using UFloat objects with std_dev==0 may give unexpected results.
+  warn("Using UFloat objects with std_dev==0 may give unexpected results.")
+/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/uncertainties/core.py:1024: UserWarning: Using UFloat objects with std_dev==0 may give unexpected results.
+  warn("Using UFloat objects with std_dev==0 may give unexpected results.")
+Warning: Cannot perform Hydrogen sampling with GPU-Omega: GPU-Omega disabled.
+Warning: Cannot perform Hydrogen sampling with GPU-Omega: GPU-Omega disabled.
+Warning: Cannot perform Hydrogen sampling with GPU-Omega: GPU-Omega disabled.
+Warning: Cannot perform Hydrogen sampling with GPU-Omega: GPU-Omega disabled.
+/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/uncertainties/core.py:1024: UserWarning: Using UFloat objects with std_dev==0 may give unexpected results.
+  warn("Using UFloat objects with std_dev==0 may give unexpected results.")
+/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/uncertainties/core.py:1024: UserWarning: Using UFloat objects with std_dev==0 may give unexpected results.
+  warn("Using UFloat objects with std_dev==0 may give unexpected results.")
+Warning: Cannot perform Hydrogen sampling with GPU-Omega: GPU-Omega disabled.
+Warning: Cannot perform Hydrogen sampling with GPU-Omega: GPU-Omega disabled.
+Warning: Cannot perform Hydrogen sampling with GPU-Omega: GPU-Omega disabled.
+Warning: Cannot perform Hydrogen sampling with GPU-Omega: GPU-Omega disabled.
+Warning: Cannot perform Hydrogen sampling with GPU-Omega: GPU-Omega disabled.
+Warning: Cannot perform Hydrogen sampling with GPU-Omega: GPU-Omega disabled.
+Warning: Cannot perform Hydrogen sampling with GPU-Omega: GPU-Omega disabled.
+Warning: Cannot perform Hydrogen sampling with GPU-Omega: GPU-Omega disabled.
+Warning: Cannot perform Hydrogen sampling with GPU-Omega: GPU-Omega disabled.
+Warning: Cannot perform Hydrogen sampling with GPU-Omega: GPU-Omega disabled.
+Warning: Cannot perform Hydrogen sampling with GPU-Omega: GPU-Omega disabled.
+Warning: Cannot perform Hydrogen sampling with GPU-Omega: GPU-Omega disabled.
+Warning: Cannot perform Hydrogen sampling with GPU-Omega: GPU-Omega disabled.
+Warning: Cannot perform Hydrogen sampling with GPU-Omega: GPU-Omega disabled.
+Warning: Cannot perform Hydrogen sampling with GPU-Omega: GPU-Omega disabled.
+Warning: Cannot perform Hydrogen sampling with GPU-Omega: GPU-Omega disabled.
+Warning: Cannot perform Hydrogen sampling with GPU-Omega: GPU-Omega disabled.
+Warning: Cannot perform Hydrogen sampling with GPU-Omega: GPU-Omega disabled.
+Warning: Cannot perform Hydrogen sampling with GPU-Omega: GPU-Omega disabled.
+Warning: Cannot perform Hydrogen sampling with GPU-Omega: GPU-Omega disabled.
+Warning: Cannot perform Hydrogen sampling with GPU-Omega: GPU-Omega disabled.
+Warning: Cannot perform Hydrogen sampling with GPU-Omega: GPU-Omega disabled.
+Warning: Cannot perform Hydrogen sampling with GPU-Omega: GPU-Omega disabled.
+Warning: Cannot perform Hydrogen sampling with GPU-Omega: GPU-Omega disabled.
+Warning: Cannot perform Hydrogen sampling with GPU-Omega: GPU-Omega disabled.
+Warning: Cannot perform Hydrogen sampling with GPU-Omega: GPU-Omega disabled.
+Warning: Cannot perform Hydrogen sampling with GPU-Omega: GPU-Omega disabled.
+Warning: Cannot perform Hydrogen sampling with GPU-Omega: GPU-Omega disabled.
+Warning: Cannot perform Hydrogen sampling with GPU-Omega: GPU-Omega disabled.
+Warning: Cannot perform Hydrogen sampling with GPU-Omega: GPU-Omega disabled.
+Warning: Cannot perform Hydrogen sampling with GPU-Omega: GPU-Omega disabled.
+Warning: Cannot perform Hydrogen sampling with GPU-Omega: GPU-Omega disabled.
+Warning: Cannot perform Hydrogen sampling with GPU-Omega: GPU-Omega disabled.
+Warning: Cannot perform Hydrogen sampling with GPU-Omega: GPU-Omega disabled.
+Traceback (most recent call last):
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/bin/ForceBalance.py", line 45, in Run_ForceBalance
+    optimizer.Run()
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/forcebalance/optimizer.py", line 322, in Run
+    xk = self.OptTab[self.jobtype]()
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/forcebalance/optimizer.py", line 951, in NewtonRaphson
+    return self.MainOptimizer(b_BFGS=0)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/forcebalance/optimizer.py", line 496, in MainOptimizer
+    data        = self.Objective.Full(xk,Ord,verbose=True)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/forcebalance/objective.py", line 314, in Full
+    Objective = self.Target_Terms(vals, Order, verbose, customdir)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/forcebalance/objective.py", line 255, in Target_Terms
+    Ans = Funcs[Order](mvals, customdir=customdir)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/forcebalance/target.py", line 319, in get_H
+    Ans = self.meta_get(mvals,1,1,customdir=customdir)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/forcebalance/target.py", line 584, in meta_get
+    Answer = self.get(mvals, AGrad, AHess)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/forcebalance/evaluator_io.py", line 742, in get
+    estimated_data_set, estimated_gradients = self._extract_property_data(
+                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/forcebalance/evaluator_io.py", line 589, in _extract_property_data
+    Evaluator_SMIRNOFF._check_estimation_request(estimation_request)
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/forcebalance/evaluator_io.py", line 566, in _check_estimation_request
+    raise ValueError(
+ValueError: Some properties could not be estimated:
+
+8745ea3d924f48979f6796d977c3040e|conditional_group failed to execute.
+
+Traceback (most recent call last):
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/workflow/protocols.py", line 1201, in _execute_protocol
+    protocol.execute(directory, available_resources)
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/workflow/protocols.py", line 688, in execute
+    self._execute(directory, available_resources)
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/protocols/groups.py", line 289, in _execute
+    super(ConditionalGroup, self)._execute(directory, available_resources)
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/workflow/protocols.py", line 1431, in _execute
+    self._inner_graph.execute(
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/workflow/protocols.py", line 1054, in execute
+    protocol_outputs[protocol_id] = ProtocolGraph._execute_protocol(
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/workflow/protocols.py", line 1201, in _execute_protocol
+    protocol.execute(directory, available_resources)
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/workflow/protocols.py", line 688, in execute
+    self._execute(directory, available_resources)
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/protocols/openmm.py", line 549, in _execute
+    _compute_gradients(
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/protocols/openmm.py", line 212, in _compute_gradients
+    reverse_energies = _evaluate_energies(
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/protocols/openmm.py", line 112, in _evaluate_energies
+    update_context_with_positions(openmm_context, positions, box_vectors)
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/utils/openmm.py", line 326, in update_context_with_positions
+    context.setPeriodicBoxVectors(*box_vectors)
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openmm/openmm.py", line 11292, in setPeriodicBoxVectors
+    return _openmm.Context_setPeriodicBoxVectors(self, a, b, c)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+openmm.OpenMMException: The box shape has changed from rectangular to triclinic.  To do this, you must call setDefaultPeriodicBoxVectors() on the System to specify a triclinic default box, then reinitialize the Context.
+
+b325b367fdf547a39d81196161d860eb|conditional_group failed to execute.
+
+Traceback (most recent call last):
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/workflow/protocols.py", line 1201, in _execute_protocol
+    protocol.execute(directory, available_resources)
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/workflow/protocols.py", line 688, in execute
+    self._execute(directory, available_resources)
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/protocols/groups.py", line 289, in _execute
+    super(ConditionalGroup, self)._execute(directory, available_resources)
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/workflow/protocols.py", line 1431, in _execute
+    self._inner_graph.execute(
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/workflow/protocols.py", line 1054, in execute
+    protocol_outputs[protocol_id] = ProtocolGraph._execute_protocol(
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/workflow/protocols.py", line 1201, in _execute_protocol
+    protocol.execute(directory, available_resources)
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/workflow/protocols.py", line 688, in execute
+    self._execute(directory, available_resources)
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/protocols/openmm.py", line 549, in _execute
+    _compute_gradients(
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/protocols/openmm.py", line 212, in _compute_gradients
+    reverse_energies = _evaluate_energies(
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/protocols/openmm.py", line 112, in _evaluate_energies
+    update_context_with_positions(openmm_context, positions, box_vectors)
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/utils/openmm.py", line 326, in update_context_with_positions
+    context.setPeriodicBoxVectors(*box_vectors)
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openmm/openmm.py", line 11292, in setPeriodicBoxVectors
+    return _openmm.Context_setPeriodicBoxVectors(self, a, b, c)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+openmm.OpenMMException: The box shape has changed from rectangular to triclinic.  To do this, you must call setDefaultPeriodicBoxVectors() on the System to specify a triclinic default box, then reinitialize the Context.
+
+5392ede1c7e640129eab899ee9a898f5|conditional_group failed to execute.
+
+Traceback (most recent call last):
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/workflow/protocols.py", line 1201, in _execute_protocol
+    protocol.execute(directory, available_resources)
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/workflow/protocols.py", line 688, in execute
+    self._execute(directory, available_resources)
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/protocols/groups.py", line 289, in _execute
+    super(ConditionalGroup, self)._execute(directory, available_resources)
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/workflow/protocols.py", line 1431, in _execute
+    self._inner_graph.execute(
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/workflow/protocols.py", line 1054, in execute
+    protocol_outputs[protocol_id] = ProtocolGraph._execute_protocol(
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/workflow/protocols.py", line 1201, in _execute_protocol
+    protocol.execute(directory, available_resources)
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/workflow/protocols.py", line 688, in execute
+    self._execute(directory, available_resources)
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/protocols/openmm.py", line 549, in _execute
+    _compute_gradients(
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/protocols/openmm.py", line 212, in _compute_gradients
+    reverse_energies = _evaluate_energies(
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/protocols/openmm.py", line 112, in _evaluate_energies
+    update_context_with_positions(openmm_context, positions, box_vectors)
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/utils/openmm.py", line 326, in update_context_with_positions
+    context.setPeriodicBoxVectors(*box_vectors)
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openmm/openmm.py", line 11292, in setPeriodicBoxVectors
+    return _openmm.Context_setPeriodicBoxVectors(self, a, b, c)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+openmm.OpenMMException: The box shape has changed from rectangular to triclinic.  To do this, you must call setDefaultPeriodicBoxVectors() on the System to specify a triclinic default box, then reinitialize the Context.
+
+e91cc2bd51454c0aa6d658f65abfd38b|conditional_group failed to execute.
+
+Traceback (most recent call last):
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/workflow/protocols.py", line 1201, in _execute_protocol
+    protocol.execute(directory, available_resources)
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/workflow/protocols.py", line 688, in execute
+    self._execute(directory, available_resources)
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/protocols/groups.py", line 289, in _execute
+    super(ConditionalGroup, self)._execute(directory, available_resources)
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/workflow/protocols.py", line 1431, in _execute
+    self._inner_graph.execute(
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/workflow/protocols.py", line 1054, in execute
+    protocol_outputs[protocol_id] = ProtocolGraph._execute_protocol(
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/workflow/protocols.py", line 1201, in _execute_protocol
+    protocol.execute(directory, available_resources)
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/workflow/protocols.py", line 688, in execute
+    self._execute(directory, available_resources)
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/protocols/openmm.py", line 549, in _execute
+    _compute_gradients(
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/protocols/openmm.py", line 212, in _compute_gradients
+    reverse_energies = _evaluate_energies(
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/protocols/openmm.py", line 112, in _evaluate_energies
+    update_context_with_positions(openmm_context, positions, box_vectors)
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/utils/openmm.py", line 326, in update_context_with_positions
+    context.setPeriodicBoxVectors(*box_vectors)
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openmm/openmm.py", line 11292, in setPeriodicBoxVectors
+    return _openmm.Context_setPeriodicBoxVectors(self, a, b, c)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+openmm.OpenMMException: The box shape has changed from rectangular to triclinic.  To do this, you must call setDefaultPeriodicBoxVectors() on the System to specify a triclinic default box, then reinitialize the Context.
+
+e91cc2bd51454c0aa6d658f65abfd38b|conditional_group failed to execute.
+
+Traceback (most recent call last):
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/workflow/protocols.py", line 1201, in _execute_protocol
+    protocol.execute(directory, available_resources)
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/workflow/protocols.py", line 688, in execute
+    self._execute(directory, available_resources)
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/protocols/groups.py", line 289, in _execute
+    super(ConditionalGroup, self)._execute(directory, available_resources)
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/workflow/protocols.py", line 1431, in _execute
+    self._inner_graph.execute(
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/workflow/protocols.py", line 1054, in execute
+    protocol_outputs[protocol_id] = ProtocolGraph._execute_protocol(
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/workflow/protocols.py", line 1201, in _execute_protocol
+    protocol.execute(directory, available_resources)
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/workflow/protocols.py", line 688, in execute
+    self._execute(directory, available_resources)
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/protocols/openmm.py", line 549, in _execute
+    _compute_gradients(
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/protocols/openmm.py", line 212, in _compute_gradients
+    reverse_energies = _evaluate_energies(
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/protocols/openmm.py", line 112, in _evaluate_energies
+    update_context_with_positions(openmm_context, positions, box_vectors)
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/utils/openmm.py", line 326, in update_context_with_positions
+    context.setPeriodicBoxVectors(*box_vectors)
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openmm/openmm.py", line 11292, in setPeriodicBoxVectors
+    return _openmm.Context_setPeriodicBoxVectors(self, a, b, c)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+openmm.OpenMMException: The box shape has changed from rectangular to triclinic.  To do this, you must call setDefaultPeriodicBoxVectors() on the System to specify a triclinic default box, then reinitialize the Context.
+
+dfb1c1c816454072bbce59b5c9394885|conditional_group failed to execute.
+
+Traceback (most recent call last):
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/workflow/protocols.py", line 1201, in _execute_protocol
+    protocol.execute(directory, available_resources)
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/workflow/protocols.py", line 688, in execute
+    self._execute(directory, available_resources)
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/protocols/groups.py", line 289, in _execute
+    super(ConditionalGroup, self)._execute(directory, available_resources)
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/workflow/protocols.py", line 1431, in _execute
+    self._inner_graph.execute(
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/workflow/protocols.py", line 1054, in execute
+    protocol_outputs[protocol_id] = ProtocolGraph._execute_protocol(
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/workflow/protocols.py", line 1201, in _execute_protocol
+    protocol.execute(directory, available_resources)
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/workflow/protocols.py", line 688, in execute
+    self._execute(directory, available_resources)
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/protocols/openmm.py", line 549, in _execute
+    _compute_gradients(
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/protocols/openmm.py", line 212, in _compute_gradients
+    reverse_energies = _evaluate_energies(
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/protocols/openmm.py", line 112, in _evaluate_energies
+    update_context_with_positions(openmm_context, positions, box_vectors)
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/utils/openmm.py", line 326, in update_context_with_positions
+    context.setPeriodicBoxVectors(*box_vectors)
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openmm/openmm.py", line 11292, in setPeriodicBoxVectors
+    return _openmm.Context_setPeriodicBoxVectors(self, a, b, c)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+openmm.OpenMMException: The box shape has changed from rectangular to triclinic.  To do this, you must call setDefaultPeriodicBoxVectors() on the System to specify a triclinic default box, then reinitialize the Context.
+
+dfb1c1c816454072bbce59b5c9394885|conditional_group failed to execute.
+
+Traceback (most recent call last):
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/workflow/protocols.py", line 1201, in _execute_protocol
+    protocol.execute(directory, available_resources)
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/workflow/protocols.py", line 688, in execute
+    self._execute(directory, available_resources)
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/protocols/groups.py", line 289, in _execute
+    super(ConditionalGroup, self)._execute(directory, available_resources)
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/workflow/protocols.py", line 1431, in _execute
+    self._inner_graph.execute(
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/workflow/protocols.py", line 1054, in execute
+    protocol_outputs[protocol_id] = ProtocolGraph._execute_protocol(
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/workflow/protocols.py", line 1201, in _execute_protocol
+    protocol.execute(directory, available_resources)
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/workflow/protocols.py", line 688, in execute
+    self._execute(directory, available_resources)
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/protocols/openmm.py", line 549, in _execute
+    _compute_gradients(
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/protocols/openmm.py", line 212, in _compute_gradients
+    reverse_energies = _evaluate_energies(
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/protocols/openmm.py", line 112, in _evaluate_energies
+    update_context_with_positions(openmm_context, positions, box_vectors)
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/utils/openmm.py", line 326, in update_context_with_positions
+    context.setPeriodicBoxVectors(*box_vectors)
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openmm/openmm.py", line 11292, in setPeriodicBoxVectors
+    return _openmm.Context_setPeriodicBoxVectors(self, a, b, c)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+openmm.OpenMMException: The box shape has changed from rectangular to triclinic.  To do this, you must call setDefaultPeriodicBoxVectors() on the System to specify a triclinic default box, then reinitialize the Context.
+
+4603022955a44fcfa6be779f9c3ede99|conditional_group failed to execute.
+
+Traceback (most recent call last):
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/workflow/protocols.py", line 1201, in _execute_protocol
+    protocol.execute(directory, available_resources)
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/workflow/protocols.py", line 688, in execute
+    self._execute(directory, available_resources)
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/protocols/groups.py", line 289, in _execute
+    super(ConditionalGroup, self)._execute(directory, available_resources)
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/workflow/protocols.py", line 1431, in _execute
+    self._inner_graph.execute(
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/workflow/protocols.py", line 1054, in execute
+    protocol_outputs[protocol_id] = ProtocolGraph._execute_protocol(
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/workflow/protocols.py", line 1201, in _execute_protocol
+    protocol.execute(directory, available_resources)
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/workflow/protocols.py", line 688, in execute
+    self._execute(directory, available_resources)
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/protocols/openmm.py", line 549, in _execute
+    _compute_gradients(
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/protocols/openmm.py", line 212, in _compute_gradients
+    reverse_energies = _evaluate_energies(
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/protocols/openmm.py", line 112, in _evaluate_energies
+    update_context_with_positions(openmm_context, positions, box_vectors)
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/utils/openmm.py", line 326, in update_context_with_positions
+    context.setPeriodicBoxVectors(*box_vectors)
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openmm/openmm.py", line 11292, in setPeriodicBoxVectors
+    return _openmm.Context_setPeriodicBoxVectors(self, a, b, c)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+openmm.OpenMMException: The box shape has changed from rectangular to triclinic.  To do this, you must call setDefaultPeriodicBoxVectors() on the System to specify a triclinic default box, then reinitialize the Context.
+
+4603022955a44fcfa6be779f9c3ede99|conditional_group failed to execute.
+
+Traceback (most recent call last):
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/workflow/protocols.py", line 1201, in _execute_protocol
+    protocol.execute(directory, available_resources)
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/workflow/protocols.py", line 688, in execute
+    self._execute(directory, available_resources)
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/protocols/groups.py", line 289, in _execute
+    super(ConditionalGroup, self)._execute(directory, available_resources)
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/workflow/protocols.py", line 1431, in _execute
+    self._inner_graph.execute(
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/workflow/protocols.py", line 1054, in execute
+    protocol_outputs[protocol_id] = ProtocolGraph._execute_protocol(
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/workflow/protocols.py", line 1201, in _execute_protocol
+    protocol.execute(directory, available_resources)
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/workflow/protocols.py", line 688, in execute
+    self._execute(directory, available_resources)
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/protocols/openmm.py", line 549, in _execute
+    _compute_gradients(
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/protocols/openmm.py", line 212, in _compute_gradients
+    reverse_energies = _evaluate_energies(
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/protocols/openmm.py", line 112, in _evaluate_energies
+    update_context_with_positions(openmm_context, positions, box_vectors)
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/utils/openmm.py", line 326, in update_context_with_positions
+    context.setPeriodicBoxVectors(*box_vectors)
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openmm/openmm.py", line 11292, in setPeriodicBoxVectors
+    return _openmm.Context_setPeriodicBoxVectors(self, a, b, c)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+openmm.OpenMMException: The box shape has changed from rectangular to triclinic.  To do this, you must call setDefaultPeriodicBoxVectors() on the System to specify a triclinic default box, then reinitialize the Context.
+
+ab6c5784ea6d4b109377e0940f49bdcb|conditional_group failed to execute.
+
+Traceback (most recent call last):
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/workflow/protocols.py", line 1201, in _execute_protocol
+    protocol.execute(directory, available_resources)
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/workflow/protocols.py", line 688, in execute
+    self._execute(directory, available_resources)
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/protocols/groups.py", line 289, in _execute
+    super(ConditionalGroup, self)._execute(directory, available_resources)
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/workflow/protocols.py", line 1431, in _execute
+    self._inner_graph.execute(
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/workflow/protocols.py", line 1054, in execute
+    protocol_outputs[protocol_id] = ProtocolGraph._execute_protocol(
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/workflow/protocols.py", line 1201, in _execute_protocol
+    protocol.execute(directory, available_resources)
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/workflow/protocols.py", line 688, in execute
+    self._execute(directory, available_resources)
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/protocols/openmm.py", line 549, in _execute
+    _compute_gradients(
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/protocols/openmm.py", line 212, in _compute_gradients
+    reverse_energies = _evaluate_energies(
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/protocols/openmm.py", line 112, in _evaluate_energies
+    update_context_with_positions(openmm_context, positions, box_vectors)
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/utils/openmm.py", line 326, in update_context_with_positions
+    context.setPeriodicBoxVectors(*box_vectors)
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openmm/openmm.py", line 11292, in setPeriodicBoxVectors
+    return _openmm.Context_setPeriodicBoxVectors(self, a, b, c)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+openmm.OpenMMException: The box shape has changed from rectangular to triclinic.  To do this, you must call setDefaultPeriodicBoxVectors() on the System to specify a triclinic default box, then reinitialize the Context.
+
+2ad0f8a7c8a248c19de673adbbc95fef|conditional_group failed to execute.
+
+Traceback (most recent call last):
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/workflow/protocols.py", line 1201, in _execute_protocol
+    protocol.execute(directory, available_resources)
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/workflow/protocols.py", line 688, in execute
+    self._execute(directory, available_resources)
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/protocols/groups.py", line 289, in _execute
+    super(ConditionalGroup, self)._execute(directory, available_resources)
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/workflow/protocols.py", line 1431, in _execute
+    self._inner_graph.execute(
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/workflow/protocols.py", line 1054, in execute
+    protocol_outputs[protocol_id] = ProtocolGraph._execute_protocol(
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/workflow/protocols.py", line 1201, in _execute_protocol
+    protocol.execute(directory, available_resources)
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/workflow/protocols.py", line 688, in execute
+    self._execute(directory, available_resources)
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/protocols/openmm.py", line 549, in _execute
+    _compute_gradients(
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/protocols/openmm.py", line 212, in _compute_gradients
+    reverse_energies = _evaluate_energies(
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/protocols/openmm.py", line 112, in _evaluate_energies
+    update_context_with_positions(openmm_context, positions, box_vectors)
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/utils/openmm.py", line 326, in update_context_with_positions
+    context.setPeriodicBoxVectors(*box_vectors)
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openmm/openmm.py", line 11292, in setPeriodicBoxVectors
+    return _openmm.Context_setPeriodicBoxVectors(self, a, b, c)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+openmm.OpenMMException: The box shape has changed from rectangular to triclinic.  To do this, you must call setDefaultPeriodicBoxVectors() on the System to specify a triclinic default box, then reinitialize the Context.
+
+2ad0f8a7c8a248c19de673adbbc95fef|conditional_group failed to execute.
+
+Traceback (most recent call last):
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/workflow/protocols.py", line 1201, in _execute_protocol
+    protocol.execute(directory, available_resources)
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/workflow/protocols.py", line 688, in execute
+    self._execute(directory, available_resources)
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/protocols/groups.py", line 289, in _execute
+    super(ConditionalGroup, self)._execute(directory, available_resources)
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/workflow/protocols.py", line 1431, in _execute
+    self._inner_graph.execute(
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/workflow/protocols.py", line 1054, in execute
+    protocol_outputs[protocol_id] = ProtocolGraph._execute_protocol(
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/workflow/protocols.py", line 1201, in _execute_protocol
+    protocol.execute(directory, available_resources)
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/workflow/protocols.py", line 688, in execute
+    self._execute(directory, available_resources)
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/protocols/openmm.py", line 549, in _execute
+    _compute_gradients(
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/protocols/openmm.py", line 212, in _compute_gradients
+    reverse_energies = _evaluate_energies(
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/protocols/openmm.py", line 112, in _evaluate_energies
+    update_context_with_positions(openmm_context, positions, box_vectors)
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/utils/openmm.py", line 326, in update_context_with_positions
+    context.setPeriodicBoxVectors(*box_vectors)
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openmm/openmm.py", line 11292, in setPeriodicBoxVectors
+    return _openmm.Context_setPeriodicBoxVectors(self, a, b, c)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+openmm.OpenMMException: The box shape has changed from rectangular to triclinic.  To do this, you must call setDefaultPeriodicBoxVectors() on the System to specify a triclinic default box, then reinitialize the Context.
+
+2474c129f77f41648baa2ceb3ae0f795|conditional_group failed to execute.
+
+Traceback (most recent call last):
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/workflow/protocols.py", line 1201, in _execute_protocol
+    protocol.execute(directory, available_resources)
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/workflow/protocols.py", line 688, in execute
+    self._execute(directory, available_resources)
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/protocols/groups.py", line 289, in _execute
+    super(ConditionalGroup, self)._execute(directory, available_resources)
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/workflow/protocols.py", line 1431, in _execute
+    self._inner_graph.execute(
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/workflow/protocols.py", line 1054, in execute
+    protocol_outputs[protocol_id] = ProtocolGraph._execute_protocol(
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/workflow/protocols.py", line 1201, in _execute_protocol
+    protocol.execute(directory, available_resources)
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/workflow/protocols.py", line 688, in execute
+    self._execute(directory, available_resources)
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/protocols/openmm.py", line 549, in _execute
+    _compute_gradients(
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/protocols/openmm.py", line 212, in _compute_gradients
+    reverse_energies = _evaluate_energies(
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/protocols/openmm.py", line 112, in _evaluate_energies
+    update_context_with_positions(openmm_context, positions, box_vectors)
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/utils/openmm.py", line 326, in update_context_with_positions
+    context.setPeriodicBoxVectors(*box_vectors)
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openmm/openmm.py", line 11292, in setPeriodicBoxVectors
+    return _openmm.Context_setPeriodicBoxVectors(self, a, b, c)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+openmm.OpenMMException: The box shape has changed from rectangular to triclinic.  To do this, you must call setDefaultPeriodicBoxVectors() on the System to specify a triclinic default box, then reinitialize the Context.
+
+2474c129f77f41648baa2ceb3ae0f795|conditional_group failed to execute.
+
+Traceback (most recent call last):
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/workflow/protocols.py", line 1201, in _execute_protocol
+    protocol.execute(directory, available_resources)
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/workflow/protocols.py", line 688, in execute
+    self._execute(directory, available_resources)
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/protocols/groups.py", line 289, in _execute
+    super(ConditionalGroup, self)._execute(directory, available_resources)
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/workflow/protocols.py", line 1431, in _execute
+    self._inner_graph.execute(
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/workflow/protocols.py", line 1054, in execute
+    protocol_outputs[protocol_id] = ProtocolGraph._execute_protocol(
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/workflow/protocols.py", line 1201, in _execute_protocol
+    protocol.execute(directory, available_resources)
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/workflow/protocols.py", line 688, in execute
+    self._execute(directory, available_resources)
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/protocols/openmm.py", line 549, in _execute
+    _compute_gradients(
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/protocols/openmm.py", line 212, in _compute_gradients
+    reverse_energies = _evaluate_energies(
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/protocols/openmm.py", line 112, in _evaluate_energies
+    update_context_with_positions(openmm_context, positions, box_vectors)
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openff/evaluator/utils/openmm.py", line 326, in update_context_with_positions
+    context.setPeriodicBoxVectors(*box_vectors)
+  File "/projects/juho8819/software/anaconda/envs/test_evaluator_oe/lib/python3.11/site-packages/openmm/openmm.py", line 11292, in setPeriodicBoxVectors
+    return _openmm.Context_setPeriodicBoxVectors(self, a, b, c)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+openmm.OpenMMException: The box shape has changed from rectangular to triclinic.  To do this, you must call setDefaultPeriodicBoxVectors() on the System to specify a triclinic default box, then reinitialize the Context.
+.

@@ -1,19 +1,29 @@
 #!/bin/bash
-#SBATCH -J vdWFB 
-#SBATCH -p aa100
-#SBATCH -t 7-00:00:00
-#SBATCH --qos=long
-#SBATCH --ntasks=1
+#SBATCH -J vdWFB
+#SBATCH -J vdWFB
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=1
+#SBATCH --partition=blanca-shirts
+#SBATCH --qos=blanca-shirts
+#SBATCH --account=blanca-shirts
 #SBATCH --gres=gpu
+#SBATCH -t 7-00:00:00
 #SBATCH --mem=10000mb
-#SBATCH --account ucb500_asc1
 #SBATCH --export=ALL
-#SBATCH -o run02.out
-#SBATCH -e run02.err
+#SBATCH -o vdW.out
+#SBATCH -e vdW.err
 
+# Load your environment
 ml anaconda
 source $HOME/.bashrc
-conda activate test_evaluator
+conda activate test_evaluator_oe
+
+export OE_LICENSE=/projects/juho8819/oe_license.txt
+echo "OE_LICENSE is set to: $OE_LICENSE"
+
+# Check CUDA availability
+echo "Checking CUDA devices..."
+nvidia-smi
 
 # Run the Python script
 python run_evaluator.py

@@ -1,0 +1,106 @@
+REMARK   1 CREATED WITH MDTraj 1.10.3, 2025-05-14
+CRYST1   38.852   38.852   38.852  90.00  90.00  90.00 P 1           1 
+MODEL        0
+ATOM      1  C1  AXJ A   1      10.245   3.495   4.085  1.00  0.00           C  
+ATOM      2  C2  AXJ A   1       9.728   4.130   5.333  1.00  0.00           C  
+ATOM      3  C3  AXJ A   1       9.486   5.616   5.180  1.00  0.00           C  
+ATOM      4  C4  AXJ A   1      10.762   6.362   4.812  1.00  0.00           C  
+ATOM      5  C5  AXJ A   1      11.810   6.187   5.859  1.00  0.00           C  
+ATOM      6  C6  AXJ A   1      13.063   6.917   5.458  1.00  0.00           C  
+ATOM      7  C7  AXJ A   1      12.792   8.365   5.302  1.00  0.00           C  
+ATOM      8  C8  AXJ A   1      14.088   9.131   4.908  1.00  0.00           C  
+ATOM      9  C9  AXJ A   1      13.662  10.543   4.789  1.00  0.00           C  
+ATOM     10  C10 AXJ A   1      14.520  11.623   4.334  1.00  0.00           C  
+ATOM     11  C11 AXJ A   1      15.784  11.873   5.090  1.00  0.00           C  
+ATOM     12  C12 AXJ A   1      16.796  10.810   4.898  1.00  0.00           C  
+ATOM     13  C13 AXJ A   1      18.077  10.883   5.623  1.00  0.00           C  
+ATOM     14  C14 AXJ A   1      19.005  11.969   5.311  1.00  0.00           C  
+ATOM     15  C15 AXJ A   1      18.591  13.367   5.516  1.00  0.00           C  
+ATOM     16  C16 AXJ A   1      18.132  13.649   6.918  1.00  0.00           C  
+ATOM     17  H1  AXJ A   1       9.791   3.909   3.187  1.00  0.00           H  
+ATOM     18  H2  AXJ A   1      11.344   3.493   3.984  1.00  0.00           H  
+ATOM     19  H3  AXJ A   1       9.960   2.409   4.137  1.00  0.00           H  
+ATOM     20  H4  AXJ A   1       8.709   3.691   5.514  1.00  0.00           H  
+ATOM     21  H5  AXJ A   1      10.356   3.951   6.203  1.00  0.00           H  
+ATOM     22  H6  AXJ A   1       8.697   5.846   4.436  1.00  0.00           H  
+ATOM     23  H7  AXJ A   1       9.138   6.025   6.150  1.00  0.00           H  
+ATOM     24  H8  AXJ A   1      11.110   6.150   3.801  1.00  0.00           H  
+ATOM     25  H9  AXJ A   1      10.440   7.447   4.818  1.00  0.00           H  
+ATOM     26  H10 AXJ A   1      11.381   6.602   6.810  1.00  0.00           H  
+ATOM     27  H11 AXJ A   1      12.019   5.124   6.100  1.00  0.00           H  
+ATOM     28  H12 AXJ A   1      13.468   6.512   4.483  1.00  0.00           H  
+ATOM     29  H13 AXJ A   1      13.865   6.758   6.216  1.00  0.00           H  
+ATOM     30  H14 AXJ A   1      12.060   8.532   4.511  1.00  0.00           H  
+ATOM     31  H15 AXJ A   1      12.456   8.795   6.261  1.00  0.00           H  
+ATOM     32  H16 AXJ A   1      14.692   8.954   5.860  1.00  0.00           H  
+ATOM     33  H17 AXJ A   1      14.514   8.641   4.045  1.00  0.00           H  
+ATOM     34  H18 AXJ A   1      12.728  10.579   4.104  1.00  0.00           H  
+ATOM     35  H19 AXJ A   1      13.174  10.780   5.804  1.00  0.00           H  
+ATOM     36  H20 AXJ A   1      14.826  11.384   3.246  1.00  0.00           H  
+ATOM     37  H21 AXJ A   1      13.934  12.596   4.218  1.00  0.00           H  
+ATOM     38  H22 AXJ A   1      15.479  11.865   6.204  1.00  0.00           H  
+ATOM     39  H23 AXJ A   1      16.110  12.910   4.854  1.00  0.00           H  
+ATOM     40  H24 AXJ A   1      16.382   9.808   4.965  1.00  0.00           H  
+ATOM     41  H25 AXJ A   1      17.020  10.879   3.744  1.00  0.00           H  
+ATOM     42  H26 AXJ A   1      18.591   9.869   5.516  1.00  0.00           H  
+ATOM     43  H27 AXJ A   1      17.801  10.861   6.730  1.00  0.00           H  
+ATOM     44  H28 AXJ A   1      20.003  11.844   5.855  1.00  0.00           H  
+ATOM     45  H29 AXJ A   1      19.334  11.829   4.226  1.00  0.00           H  
+ATOM     46  H30 AXJ A   1      19.586  14.002   5.370  1.00  0.00           H  
+ATOM     47  H31 AXJ A   1      17.969  13.844   4.769  1.00  0.00           H  
+ATOM     48  H32 AXJ A   1      19.004  13.868   7.543  1.00  0.00           H  
+ATOM     49  H33 AXJ A   1      17.463  14.542   6.952  1.00  0.00           H  
+ATOM     50  H34 AXJ A   1      17.564  12.803   7.353  1.00  0.00           H  
+TER      51      AXJ A   1
+ENDMDL
+CONECT    1    2   17   18   19
+CONECT    2    1    3   20   21
+CONECT    3    2    4   22   23
+CONECT    4    3    5   24   25
+CONECT    5    4    6   26   27
+CONECT    6    5    7   28   29
+CONECT    7    6    8   30   31
+CONECT    8    7    9   32   33
+CONECT    9    8   10   34   35
+CONECT   10    9   11   36   37
+CONECT   11   10   12   38   39
+CONECT   12   11   13   40   41
+CONECT   13   12   14   42   43
+CONECT   14   13   15   44   45
+CONECT   15   14   16   46   47
+CONECT   16   15   48   49   50
+CONECT   17    1
+CONECT   18    1
+CONECT   19    1
+CONECT   20    2
+CONECT   21    2
+CONECT   22    3
+CONECT   23    3
+CONECT   24    4
+CONECT   25    4
+CONECT   26    5
+CONECT   27    5
+CONECT   28    6
+CONECT   29    6
+CONECT   30    7
+CONECT   31    7
+CONECT   32    8
+CONECT   33    8
+CONECT   34    9
+CONECT   35    9
+CONECT   36   10
+CONECT   37   10
+CONECT   38   11
+CONECT   39   11
+CONECT   40   12
+CONECT   41   12
+CONECT   42   13
+CONECT   43   13
+CONECT   44   14
+CONECT   45   14
+CONECT   46   15
+CONECT   47   15
+CONECT   48   16
+CONECT   49   16
+CONECT   50   16
+END
